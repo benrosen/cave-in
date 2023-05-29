@@ -1,0 +1,271 @@
+{
+	"name": "cave-in",
+	"version": "1.0.0",
+	"devDependencies": {
+		"prettier": "^2.8.8"
+	},
+	"config": {
+		"cards": [
+			{
+				"suit": "spades",
+				"rank": "ace",
+				"instructions": "Draw a card."
+			},
+			{
+				"suit": "spades",
+				"rank": "2",
+				"instructions": "Discard a card."
+			},
+			{
+				"suit": "spades",
+				"rank": "3",
+				"instructions": "Draw a card. Discard a card."
+			},
+			{
+				"suit": "spades",
+				"rank": "4",
+				"instructions": "Draw two cards."
+			},
+			{
+				"suit": "spades",
+				"rank": "5",
+				"instructions": "Discard a card. Shuffle a card from the discard pile back into the deck."
+			},
+			{
+				"suit": "spades",
+				"rank": "6",
+				"instructions": "Draw three cards."
+			},
+			{
+				"suit": "spades",
+				"rank": "7",
+				"instructions": "Draw three cards. Discard three cards."
+			},
+			{
+				"suit": "spades",
+				"rank": "8",
+				"instructions": "Shuffle your hand into the deck. Re-draw that many cards."
+			},
+			{
+				"suit": "spades",
+				"rank": "9",
+				"instructions": "Discard your hand."
+			},
+			{
+				"suit": "spades",
+				"rank": "10",
+				"instructions": "Discard your hand. Draw a card."
+			},
+			{
+				"suit": "spades",
+				"rank": "jack",
+				"instructions": "Pick any card from the deck. Shuffle the deck. Discard a card."
+			},
+			{
+				"suit": "spades",
+				"rank": "queen",
+				"instructions": "Draw three cards. Put one in your hand, one in the discard pile, and one on top of the deck."
+			},
+			{
+				"suit": "spades",
+				"rank": "king",
+				"instructions": "Shuffle the discard pile into the deck."
+			},
+			{
+				"suit": "diamonds",
+				"rank": "ace",
+				"instructions": "Roll for fate. On an even number, draw a card. On an odd number, discard a card."
+			},
+			{
+				"suit": "diamonds",
+				"rank": "2",
+				"instructions": "Roll for fate. On an even number, gain a fate point. On an odd number, lose a fate point."
+			},
+			{
+				"suit": "diamonds",
+				"rank": "3",
+				"instructions": "Roll for fate. If you roll a 1 or a 2, gain a power point. If you roll a 3 or a 4, gain a fate point. If you roll a 5 or a 6, draw a card."
+			},
+			{
+				"suit": "diamonds",
+				"rank": "4",
+				"instructions": "Roll for fate. On an even number, gain that many power points. On an odd number, lose that many fate points."
+			},
+			{
+				"suit": "diamonds",
+				"rank": "5",
+				"instructions": "Roll for fate. Draw that many cards. Shuffle that many cards from your hand into the deck."
+			},
+			{
+				"suit": "diamonds",
+				"rank": "6",
+				"instructions": "Roll for fate. Lose that many fate points. Lose that many power points. Draw that many cards."
+			},
+			{
+				"suit": "diamonds",
+				"rank": "7",
+				"instructions": "Roll for fate. Gain that many fate points. Gain that many power points. Discard that many cards."
+			},
+			{
+				"suit": "diamonds",
+				"rank": "8",
+				"instructions": "Roll for fate. On an even number, draw that many cards. On an odd number, shuffle that many cards from the discard pile into the deck."
+			},
+			{
+				"suit": "diamonds",
+				"rank": "9",
+				"instructions": "Roll for fate. If you roll higher than your current power total, gain a power point and reroll. If you roll lower than your current power total, lose three power points."
+			},
+			{
+				"suit": "diamonds",
+				"rank": "10",
+				"instructions": "Roll for fate. If you roll the same number as your current power total, draw twice that number of cards. If you roll a different number than your current power total, lose twice that many power points."
+			},
+			{
+				"suit": "diamonds",
+				"rank": "jack",
+				"instructions": "Roll for fate. If you roll a 1, 2, or 3, lose a power point for each card in your hand. If you roll a 4, 5, or 6, gain a power point for each card in your hand."
+			},
+			{
+				"suit": "diamonds",
+				"rank": "queen",
+				"instructions": "Roll for fate. If you roll a 1, 2, or 3, lose a fate point for each card in your hand. If you roll a 4, 5, or 6, gain a fate point for each card in your hand."
+			},
+			{
+				"suit": "diamonds",
+				"rank": "king",
+				"instructions": "Roll for fate. If you roll a 1, set your power to 12. If you roll anything other than a 1, set your power level to 1."
+			},
+			{
+				"suit": "hearts",
+				"rank": "ace",
+				"instructions": "Gain a fate point."
+			},
+			{
+				"suit": "hearts",
+				"rank": "2",
+				"instructions": "Roll for fate. If you roll higher than 1, gain a fate point. If you roll a 1, lose a power point."
+			},
+			{
+				"suit": "hearts",
+				"rank": "3",
+				"instructions": "Roll for fate. If you roll higher than 2, gain a fate point. If you roll lower than 3, lose 2 power points."
+			},
+			{
+				"suit": "hearts",
+				"rank": "4",
+				"instructions": "Roll for fate. If you roll higher than 3, gain a fate point. If you roll lower than 4, lose 3 power points."
+			},
+			{
+				"suit": "hearts",
+				"rank": "5",
+				"instructions": "Roll for fate. If you roll higher than 4, gain a fate point. If you roll lower than 5, lose 4 power points."
+			},
+			{
+				"suit": "hearts",
+				"rank": "6",
+				"instructions": "Roll for fate. If you roll higher than 5, gain a fate point. If you roll lower than 6, lose 5 power points."
+			},
+			{
+				"suit": "hearts",
+				"rank": "7",
+				"instructions": "Roll for fate. If you roll higher than 6, gain a fate point. If you roll lower than 7, lose 6 power points."
+			},
+			{
+				"suit": "hearts",
+				"rank": "8",
+				"instructions": "Roll for fate. If you roll higher than 7, gain a fate point. If you roll lower than 8, lose 7 power points."
+			},
+			{
+				"suit": "hearts",
+				"rank": "9",
+				"instructions": "Roll for fate. If you roll higher than 8, gain a fate point. If you roll lower than 9, lose 8 power points."
+			},
+			{
+				"suit": "hearts",
+				"rank": "10",
+				"instructions": "Roll for fate. If you roll higher than 9, gain a fate point. If you roll lower than 10, lose 9 power points."
+			},
+			{
+				"suit": "hearts",
+				"rank": "jack",
+				"instructions": "Roll for fate. If you roll higher than 10, gain a fate point. If you roll lower than 11, lose 10 power points."
+			},
+			{
+				"suit": "hearts",
+				"rank": "queen",
+				"instructions": "Roll for fate. If you roll higher than 11, gain a fate point. If you roll lower than 12, lose 11 power points."
+			},
+			{
+				"suit": "hearts",
+				"rank": "king",
+				"instructions": "Lose 12 power points."
+			},
+			{
+				"suit": "clubs",
+				"rank": "ace",
+				"instructions": "Gain a power point"
+			},
+			{
+				"suit": "clubs",
+				"rank": "2",
+				"instructions": "Gain a fate point"
+			},
+			{
+				"suit": "clubs",
+				"rank": "3",
+				"instructions": "Sacrifice a fate point. Gain a power point."
+			},
+			{
+				"suit": "clubs",
+				"rank": "4",
+				"instructions": "Sacrifice a power point. Gain a fate point."
+			},
+			{
+				"suit": "clubs",
+				"rank": "5",
+				"instructions": "Gain two power points."
+			},
+			{
+				"suit": "clubs",
+				"rank": "6",
+				"instructions": "Gain two fate points."
+			},
+			{
+				"suit": "clubs",
+				"rank": "7",
+				"instructions": "Sacrifice two fate points. Gain three power points."
+			},
+			{
+				"suit": "clubs",
+				"rank": "8",
+				"instructions": "Sacrifice two power points. Gain three fate points."
+			},
+			{
+				"suit": "clubs",
+				"rank": "9",
+				"instructions": "If you have an even number of fate points, gain a power point. If you have an odd number of fate points, lose a power point."
+			},
+			{
+				"suit": "clubs",
+				"rank": "10",
+				"instructions": "Sacrifice all of your fate points. Gain that many power points."
+			},
+			{
+				"suit": "clubs",
+				"rank": "jack",
+				"instructions": "if you have an even number of fate points, set your power to 12. If you have an odd number of fate points, set your fate to 6."
+			},
+			{
+				"suit": "clubs",
+				"rank": "queen",
+				"instructions": "If you have an odd number of fate points, set your power to 1. If you have an even number of fate points, set your fate to 1."
+			},
+			{
+				"suit": "clubs",
+				"rank": "king",
+				"instructions": "Set your fate and power to 1."
+			}
+		]
+	}
+}
