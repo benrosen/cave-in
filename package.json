@@ -9,263 +9,420 @@
 			{
 				"suit": "spades",
 				"rank": "ace",
-				"instructions": "Draw a card."
+				"instructions": "Draw a card.",
+				"title": "Wayfinder's Guidance",
+				"flavorText": "In the darkness, a glimmer of hope leads the way.",
+				"visualDescription": "The artwork depicts a lone adventurer holding a torch and studying a map, surrounded by treacherous cave walls."
 			},
 			{
 				"suit": "spades",
 				"rank": "2",
-				"instructions": "Discard a card."
+				"instructions": "Discard a card.",
+				"title": "Buried Burden",
+				"flavorText": "Leave behind what weighs you down.",
+				"visualDescription": "The card artwork shows a heavy backpack being dropped into a deep chasm."
 			},
 			{
 				"suit": "spades",
 				"rank": "3",
-				"instructions": "Draw a card. Discard a card."
+				"instructions": "Draw a card. Discard a card.",
+				"title": "Twisted Choices",
+				"flavorText": "Every step forward comes with a sacrifice.",
+				"visualDescription": "The illustration features a crossroad with three paths, each leading to a different perilous outcome."
 			},
 			{
 				"suit": "spades",
 				"rank": "4",
-				"instructions": "Draw two cards."
+				"instructions": "Draw two cards.",
+				"title": "Lucky Findings",
+				"flavorText": "Fortune favors the daring.",
+				"visualDescription": "A treasure chest overflowing with valuable artifacts sits at the center of the card's artwork."
 			},
 			{
 				"suit": "spades",
 				"rank": "5",
-				"instructions": "Discard a card. Shuffle a card from the discard pile back into the deck."
+				"instructions": "Discard a card. Shuffle a card from the discard pile back into the deck.",
+				"title": "Eternal Renewal",
+				"flavorText": "The past returns, breathing life into the present.",
+				"visualDescription": "An ancient tree with intertwining roots stands tall, surrounded by floating playing cards representing discarded memories."
 			},
 			{
 				"suit": "spades",
 				"rank": "6",
-				"instructions": "Draw three cards."
+				"instructions": "Draw three cards.",
+				"title": "Sage's Revelation",
+				"flavorText": "Wisdom is the light that pierces the shadows.",
+				"visualDescription": "A wise old sage holds an illuminated book, casting radiant light that reveals hidden knowledge in the darkness."
 			},
 			{
 				"suit": "spades",
 				"rank": "7",
-				"instructions": "Draw three cards. Discard three cards."
+				"instructions": "Draw three cards. Discard three cards.",
+				"title": "The Balancing Act",
+				"flavorText": "Finding equilibrium amidst chaos requires sacrifice.",
+				"visualDescription": "A juggler skillfully balances three cards while standing on a tightrope stretched between two towering cliffs."
 			},
 			{
 				"suit": "spades",
 				"rank": "8",
-				"instructions": "Shuffle your hand into the deck. Re-draw that many cards."
+				"instructions": "Shuffle your hand into the deck. Re-draw that many cards.",
+				"title": "Twist of Fate",
+				"flavorText": "Rewriting the script of destiny.",
+				"visualDescription": "A mystical hourglass turns upside down, causing the current hand of cards to dissolve into a whirlwind while new cards materialize above it."
 			},
 			{
 				"suit": "spades",
 				"rank": "9",
-				"instructions": "Discard your hand."
+				"instructions": "Discard your hand.",
+				"title": "Abandoned Hope",
+				"flavorText": "Sometimes, letting go is the only way forward.",
+				"visualDescription": "A desolate figure with empty hands and a sorrowful expression stands at the entrance of a dark, forbidding tunnel."
 			},
 			{
 				"suit": "spades",
 				"rank": "10",
-				"instructions": "Discard your hand. Draw a card."
+				"instructions": "Discard your hand. Draw a card.",
+				"title": "Phoenix's Rebirth",
+				"flavorText": "From the ashes, a fresh start emerges.",
+				"visualDescription": "A majestic phoenix rises triumphantly from a heap of discarded cards, its vibrant feathers glowing with fiery energy."
 			},
 			{
 				"suit": "spades",
 				"rank": "jack",
-				"instructions": "Pick any card from the deck. Shuffle the deck. Discard a card."
+				"instructions": "Pick any card from the deck. Shuffle the deck. Discard a card.",
+				"title": "Rogue's Gambit",
+				"flavorText": "Cheating fate, one card at a time.",
+				"visualDescription": "A crafty rogue with a sly grin reaches into a deck of cards, pulling out a specific card while others scatter around them."
 			},
 			{
 				"suit": "spades",
 				"rank": "queen",
-				"instructions": "Draw three cards. Put one in your hand, one in the discard pile, and one on top of the deck."
+				"instructions": "Draw three cards. Put one in your hand, one in the discard pile, and one on top of the deck.",
+				"title": "Enigmatic Insight",
+				"flavorText": "The veil of mystery unraveled, revealing a glimpse of truth.",
+				"visualDescription": "A mystic seer holds a crystal ball, observing the three drawn cards that hover in the air, each card representing a different outcome."
 			},
 			{
 				"suit": "spades",
 				"rank": "king",
-				"instructions": "Shuffle the discard pile into the deck."
+				"instructions": "Shuffle the discard pile into the deck.",
+				"title": "Resurgence",
+				"flavorText": "The past returns to shape the future.",
+				"visualDescription": "A swirling vortex of cards merges with a stormy sky, signifying the fusion of forgotten knowledge with the present."
 			},
 			{
 				"suit": "diamonds",
 				"rank": "ace",
-				"instructions": "Roll for fate. On an even number, draw a card. On an odd number, discard a card."
+				"instructions": "Roll for fate. On an even number, draw a card. On an odd number, discard a card.",
+				"title": "Fickle Fortune",
+				"flavorText": "The whims of fate sway like a pendulum.",
+				"visualDescription": "A giant fortune-telling pendulum swings back and forth, reflecting the uncertainty of the outcomes."
 			},
 			{
 				"suit": "diamonds",
 				"rank": "2",
-				"instructions": "Roll for fate. On an even number, gain a fate point. On an odd number, lose a fate point."
+				"instructions": "Roll for fate. On an even number, gain a fate point. On an odd number, lose a fate point.",
+				"title": "Scales of Destiny",
+				"flavorText": "The balance of fate tips with each roll.",
+				"visualDescription": "A scale hovers mid-air, with a fate point on one side and a crossed-out fate point on the other, representing the constant shifting of destiny's weight."
 			},
 			{
 				"suit": "diamonds",
 				"rank": "3",
-				"instructions": "Roll for fate. If you roll a 1 or a 2, gain a power point. If you roll a 3 or a 4, gain a fate point. If you roll a 5 or a 6, draw a card."
+				"instructions": "Roll for fate. If you roll a 1 or a 2, gain a power point. If you roll a 3 or a 4, gain a fate point. If you roll a 5 or a 6, draw a card.",
+				"title": "Crest of Divination",
+				"flavorText": "The dice of destiny hold infinite possibilities.",
+				"visualDescription": "A mystical crest adorned with various arcane symbols floats above a rolling set of enchanted dice, each face displaying different symbols and numbers."
 			},
 			{
 				"suit": "diamonds",
 				"rank": "4",
-				"instructions": "Roll for fate. On an even number, gain that many power points. On an odd number, lose that many fate points."
+				"instructions": "Roll for fate. On an even number, gain that many power points. On an odd number, lose that many fate points.",
+				"title": "Cosmic Balance",
+				"flavorText": "The universe seeks equilibrium in every roll of the dice.",
+				"visualDescription": "A cosmic scale tilts, revealing power points on one side and fading fate points on the other, representing the interplay between fortune and determination."
 			},
 			{
 				"suit": "diamonds",
 				"rank": "5",
-				"instructions": "Roll for fate. Draw that many cards. Shuffle that many cards from your hand into the deck."
+				"instructions": "Roll for fate. Draw that many cards. Shuffle that many cards from your hand into the deck.",
+				"title": "Harmonic Flow",
+				"flavorText": "The ripple effect of fate shapes the currents of chance.",
+				"visualDescription": "A serene pool of water is disturbed by a cascade of cards falling from above, creating concentric ripples that reflect the dynamic interaction between cards and destiny."
 			},
 			{
 				"suit": "diamonds",
 				"rank": "6",
-				"instructions": "Roll for fate. Lose that many fate points. Lose that many power points. Draw that many cards."
+				"instructions": "Roll for fate. Lose that many fate points. Lose that many power points. Draw that many cards.",
+				"title": "Unraveling Threads",
+				"flavorText": "The fabric of fate frays, leaving behind scattered fragments.",
+				"visualDescription": "A tangled web of interconnected threads representing fate and power begins to unravel, with cards slipping through the gaps and falling into an abyss."
 			},
 			{
 				"suit": "diamonds",
 				"rank": "7",
-				"instructions": "Roll for fate. Gain that many fate points. Gain that many power points. Discard that many cards."
+				"instructions": "Roll for fate. Gain that many fate points. Gain that many power points. Discard that many cards.",
+				"title": "Cosmic Rejuvenation",
+				"flavorText": "The cosmos aligns to restore the balance of forces.",
+				"visualDescription": "Celestial constellations converge, showering the scene with radiant energy, while cards disintegrate into stardust, symbolizing the replenishment of fate and power."
 			},
 			{
 				"suit": "diamonds",
 				"rank": "8",
-				"instructions": "Roll for fate. On an even number, draw that many cards. On an odd number, shuffle that many cards from the discard pile into the deck."
+				"instructions": "Roll for fate. On an even number, draw that many cards. On an odd number, shuffle that many cards from the discard pile into the deck.",
+				"title": "Echoes of Destiny",
+				"flavorText": "The echoes of the past ripple through the present.",
+				"visualDescription": "Ghostly apparitions of discarded cards emerge from the void, either returning to the deck or transforming into new cards, representing the cyclical nature of destiny."
 			},
 			{
 				"suit": "diamonds",
 				"rank": "9",
-				"instructions": "Roll for fate. If you roll higher than your current power total, gain a power point and reroll. If you roll lower than your current power total, lose three power points."
+				"instructions": "Roll for fate. If you roll higher than your current power total, gain a power point and reroll. If you roll lower than your current power total, lose three power points.",
+				"title": "Power's Dilemma",
+				"flavorText": "Harnessing strength brings both reward and risk.",
+				"visualDescription": "A scale tips, with power points on one side and a fading power symbol on the other, illustrating the delicate balance between gaining and losing power."
 			},
 			{
 				"suit": "diamonds",
 				"rank": "10",
-				"instructions": "Roll for fate. If you roll the same number as your current power total, draw twice that number of cards. If you roll a different number than your current power total, lose twice that many power points."
+				"instructions": "Roll for fate. If you roll the same number as your current power total, draw twice that number of cards. If you roll a different number than your current power total, lose twice that many power points.",
+				"title": "Tides of Power",
+				"flavorText": "The flow of power waxes and wanes with each roll of the dice.",
+				"visualDescription": "A crashing wave symbolizes the surges and recessions of power, while cards riding the wave represent the rewards and consequences that follow a specific roll."
 			},
 			{
 				"suit": "diamonds",
 				"rank": "jack",
-				"instructions": "Roll for fate. If you roll a 1, 2, or 3, lose a power point for each card in your hand. If you roll a 4, 5, or 6, gain a power point for each card in your hand."
+				"instructions": "Roll for fate. If you roll a 1, 2, or 3, lose a power point for each card in your hand. If you roll a 4, 5, or 6, gain a power point for each card in your hand.",
+				"title": "Hand of Destiny",
+				"flavorText": "The power of the dice reshapes what lies in your grasp.",
+				"visualDescription": "A pair of hands holds a collection of cards, while a set of enchanted dice hovers above, exuding magical energy that either empowers or diminishes the hand's potential."
 			},
 			{
 				"suit": "diamonds",
 				"rank": "queen",
-				"instructions": "Roll for fate. If you roll a 1, 2, or 3, lose a fate point for each card in your hand. If you roll a 4, 5, or 6, gain a fate point for each card in your hand."
+				"instructions": "Roll for fate. If you roll a 1, 2, or 3, lose a fate point for each card in your hand. If you roll a 4, 5, or 6, gain a fate point for each card in your hand.",
+				"title": "Fate's Embrace",
+				"flavorText": "The cards you hold mirror the path fate carves.",
+				"visualDescription": "A hand clutching a deck of cards reaches out, as mystical energy flows between the cards and the hand, signifying the exchange of fate points based on the roll's outcome."
 			},
 			{
 				"suit": "diamonds",
 				"rank": "king",
-				"instructions": "Roll for fate. If you roll a 1, set your power to 12. If you roll anything other than a 1, set your power level to 1."
+				"instructions": "Roll for fate. If you roll a 1, set your power to 12. If you roll anything other than a 1, set your power level to 1.",
+				"title": "Power's Reset",
+				"flavorText": "A roll of the dice determines the magnitude of your inner strength.",
+				"visualDescription": "An oversized, glowing die hovers above, radiating power, while a hand clenches with determination, ready to face the result of the roll that will reset their power."
 			},
 			{
 				"suit": "hearts",
 				"rank": "ace",
-				"instructions": "Gain a fate point."
+				"instructions": "Gain a fate point.",
+				"title": "Heart's Resilience",
+				"flavorText": "The heart's flame never wavers.",
+				"visualDescription": "A blazing heart-shaped flame flickers with inner strength, illuminating the darkness surrounding it."
 			},
 			{
 				"suit": "hearts",
 				"rank": "2",
-				"instructions": "Roll for fate. If you roll higher than 1, gain a fate point. If you roll a 1, lose a power point."
+				"instructions": "Roll for fate. If you roll higher than 1, gain a fate point. If you roll a 1, lose a power point.",
+				"title": "Twist of Luck",
+				"flavorText": "The capricious hand of fate determines your fortune.",
+				"visualDescription": "A hand extends from a cloud, rolling a large die, while rays of light burst from the die, symbolizing the impact of the roll on fate and power."
 			},
 			{
 				"suit": "hearts",
 				"rank": "3",
-				"instructions": "Roll for fate. If you roll higher than 2, gain a fate point. If you roll lower than 3, lose 2 power points."
+				"instructions": "Roll for fate. If you roll higher than 2, gain a fate point. If you roll lower than 3, lose 2 power points.",
+				"title": "Serenity's Trial",
+				"flavorText": "Peace endures through the trials of fate and power.",
+				"visualDescription": "A serene figure meditates in a tranquil garden, surrounded by blooming flowers and floating cards that represent the roll's outcome."
 			},
 			{
 				"suit": "hearts",
 				"rank": "4",
-				"instructions": "Roll for fate. If you roll higher than 3, gain a fate point. If you roll lower than 4, lose 3 power points."
+				"instructions": "Roll for fate. If you roll higher than 3, gain a fate point. If you roll lower than 4, lose 3 power points.",
+				"title": "Fortitude's Struggle",
+				"flavorText": "Strength rises from the ashes of adversity.",
+				"visualDescription": "A determined warrior stands tall amidst a battlefield strewn with fallen cards, showcasing the struggle between fate and power and the choices that shape one's resolve."
 			},
 			{
 				"suit": "hearts",
 				"rank": "5",
-				"instructions": "Roll for fate. If you roll higher than 4, gain a fate point. If you roll lower than 5, lose 4 power points."
+				"instructions": "Roll for fate. If you roll higher than 4, gain a fate point. If you roll lower than 5, lose 4 power points.",
+				"title": "Destiny's Surge",
+				"flavorText": "The current of fate propels you forward or drags you down.",
+				"visualDescription": "A torrent of swirling cards moves like a river, with the player caught in the middle, either being uplifted by the current or pulled deeper into the depths."
 			},
 			{
 				"suit": "hearts",
 				"rank": "6",
-				"instructions": "Roll for fate. If you roll higher than 5, gain a fate point. If you roll lower than 6, lose 5 power points."
+				"instructions": "Roll for fate. If you roll higher than 5, gain a fate point. If you roll lower than 6, lose 5 power points.",
+				"title": "Eternal Struggle",
+				"flavorText": "Endurance is the foundation of triumph.",
+				"visualDescription": "Two opposing forces clash on the card, one representing fate and the other representing power, while the player finds balance amidst the chaos, showcasing the resilience of the human spirit."
 			},
 			{
 				"suit": "hearts",
 				"rank": "7",
-				"instructions": "Roll for fate. If you roll higher than 6, gain a fate point. If you roll lower than 7, lose 6 power points."
+				"instructions": "Roll for fate. If you roll higher than 6, gain a fate point. If you roll lower than 7, lose 6 power points.",
+				"title": "Crown of Resurgence",
+				"flavorText": "The heart's resolve reignites the flickering flames of power.",
+				"visualDescription": "A regal crown, adorned with both fate and power symbols, floats above a heart-shaped flame, symbolizing the rejuvenation of power through the indomitable spirit of the heart."
 			},
 			{
 				"suit": "hearts",
 				"rank": "8",
-				"instructions": "Roll for fate. If you roll higher than 7, gain a fate point. If you roll lower than 8, lose 7 power points."
+				"instructions": "Roll for fate. If you roll higher than 7, gain a fate point. If you roll lower than 8, lose 7 power points.",
+				"title": "Revitalizing Pulse",
+				"flavorText": "The rhythm of the heart awakens dormant potential.",
+				"visualDescription": "A pulse of energy emanates from a beating heart, surrounded by cards that represent the player's fate and power, illustrating the transformative influence of the roll on the heart's vitality."
 			},
 			{
 				"suit": "hearts",
 				"rank": "9",
-				"instructions": "Roll for fate. If you roll higher than 8, gain a fate point. If you roll lower than 9, lose 8 power points."
+				"instructions": "Roll for fate. If you roll higher than 8, gain a fate point. If you roll lower than 9, lose 8 power points.",
+				"title": "Sacred Threshold",
+				"flavorText": "Crossing the threshold tests the strength of your heart.",
+				"visualDescription": "A grand doorway adorned with heart-shaped patterns stands before the player, while a roll of the dice determines whether they can pass through, symbolizing the emotional and symbolic journey tied to fate and power."
 			},
 			{
 				"suit": "hearts",
 				"rank": "10",
-				"instructions": "Roll for fate. If you roll higher than 9, gain a fate point. If you roll lower than 10, lose 9 power points."
+				"instructions": "Roll for fate. If you roll higher than 9, gain a fate point. If you roll lower than 10, lose 9 power points.",
+				"title": "Bound by Passion",
+				"flavorText": "The heart's fire shapes the limits of your strength.",
+				"visualDescription": "An intricate chain of hearts forms a barrier around the player, while a roll of the dice determines whether the flames within the hearts burn brighter or dimmer, reflecting the impact on fate and power."
 			},
 			{
 				"suit": "hearts",
 				"rank": "jack",
-				"instructions": "Roll for fate. If you roll higher than 10, gain a fate point. If you roll lower than 11, lose 10 power points."
+				"instructions": "Roll for fate. If you roll higher than 10, gain a fate point. If you roll lower than 11, lose 10 power points.",
+				"title": "Heart's Gamble",
+				"flavorText": "The heart plays a high-stakes game with fate and power.",
+				"visualDescription": "A heart-shaped gambling table with playing cards and enchanted dice represents the risks and rewards associated with the heart's gamble on the roll's outcome."
 			},
 			{
 				"suit": "hearts",
 				"rank": "queen",
-				"instructions": "Roll for fate. If you roll higher than 11, gain a fate point. If you roll lower than 12, lose 11 power points."
+				"instructions": "Roll for fate. If you roll higher than 11, gain a fate point. If you roll lower than 12, lose 11 power points.",
+				"title": "Crown of Rebirth",
+				"flavorText": "The heart's resilience breathes life into the faltering flames of power.",
+				"visualDescription": "A regal crown, adorned with both fate and power symbols, rests upon a heart-shaped flame, symbolizing the heart's ability to revitalize power through its unwavering strength."
 			},
 			{
 				"suit": "hearts",
 				"rank": "king",
-				"instructions": "Lose 12 power points."
+				"instructions": "Lose 12 power points.",
+				"title": "Heart's Sacrifice",
+				"flavorText": "Strength forged through sacrifice fuels the fire within.",
+				"visualDescription": "A heart-shaped flame burns bright, surrounded by fading power symbols, illustrating the heart's sacrifice and the transformative nature of loss on the power within."
 			},
 			{
 				"suit": "clubs",
 				"rank": "ace",
-				"instructions": "Gain a power point"
+				"instructions": "Gain a power point",
+				"title": "Essence of Power",
+				"flavorText": "The wellspring of strength begins to flow.",
+				"visualDescription": "A mystical pool of energy radiates power, while an outstretched hand reaches out to touch the pool, symbolizing the absorption of newfound strength."
 			},
 			{
 				"suit": "clubs",
 				"rank": "2",
-				"instructions": "Gain a fate point"
+				"instructions": "Gain a fate point",
+				"title": "Fortune's Favor",
+				"flavorText": "The hand of fate extends a guiding touch.",
+				"visualDescription": "A celestial hand reaches out from the sky, holding a shining fate point, while a player's hand extends to receive it, signifying the alignment of fate with the player's journey."
 			},
 			{
 				"suit": "clubs",
 				"rank": "3",
-				"instructions": "Sacrifice a fate point. Gain a power point."
+				"instructions": "Sacrifice a fate point. Gain a power point.",
+				"title": "Mystic Exchange",
+				"flavorText": "The balance of power is forged through sacrifice.",
+				"visualDescription": "A swirling vortex represents the exchange of a fate point for a power point, with the energies merging in a brilliant fusion of colors."
 			},
 			{
 				"suit": "clubs",
 				"rank": "4",
-				"instructions": "Sacrifice a power point. Gain a fate point."
+				"instructions": "Sacrifice a power point. Gain a fate point.",
+				"title": "Resilient Resurgence",
+				"flavorText": "The strength of sacrifice empowers the rise of fate.",
+				"visualDescription": "A fading power symbol dissipates, while a radiant fate point emerges from within, showcasing the transformative power of sacrifice on the journey of fate."
 			},
 			{
 				"suit": "clubs",
 				"rank": "5",
-				"instructions": "Gain two power points."
+				"instructions": "Gain two power points.",
+				"title": "Empowering Energy",
+				"flavorText": "The surge of energy ignites the flame of power.",
+				"visualDescription": "Crackling arcs of power flow between two points, representing the influx of power points and the electrifying intensity of newfound strength."
 			},
 			{
 				"suit": "clubs",
 				"rank": "6",
-				"instructions": "Gain two fate points."
+				"instructions": "Gain two fate points.",
+				"title": "Fateful Nexus",
+				"flavorText": "The convergence of paths fuels the rise of destiny.",
+				"visualDescription": "Multiple intertwining paths merge at a central nexus, where two fate points materialize, symbolizing the fusion of possibilities and the impact on the player's journey."
 			},
 			{
 				"suit": "clubs",
 				"rank": "7",
-				"instructions": "Sacrifice two fate points. Gain three power points."
+				"instructions": "Sacrifice two fate points. Gain three power points.",
+				"title": "Balancing Sacrifice",
+				"flavorText": "The scales of sacrifice tip in favor of power.",
+				"visualDescription": "A set of scales, with fate points on one side and power points on the other, tilts in favor of power as fate points diminish, illustrating the necessary sacrifices on the path to greater strength."
 			},
 			{
 				"suit": "clubs",
 				"rank": "8",
-				"instructions": "Sacrifice two power points. Gain three fate points."
+				"instructions": "Sacrifice two power points. Gain three fate points.",
+				"title": "Fateful Rejuvenation",
+				"flavorText": "The renewal of fate replenishes the dwindling well of power.",
+				"visualDescription": "A fading power symbol revitalizes as three vibrant fate points emerge, depicting the restoration of fate and the transformation of sacrifice into renewed strength."
 			},
 			{
 				"suit": "clubs",
 				"rank": "9",
-				"instructions": "If you have an even number of fate points, gain a power point. If you have an odd number of fate points, lose a power point."
+				"instructions": "If you have an even number of fate points, gain a power point. If you have an odd number of fate points, lose a power point.",
+				"title": "Tenuous Balance",
+				"flavorText": "The dance of fate teeters on the edge of power's precipice.",
+				"visualDescription": "A precarious seesaw teeters between fate and power, with the player's current fate and power points represented on each end, showcasing the delicate equilibrium of the two forces."
 			},
 			{
 				"suit": "clubs",
 				"rank": "10",
-				"instructions": "Sacrifice all of your fate points. Gain that many power points."
+				"instructions": "Sacrifice all of your fate points. Gain that many power points.",
+				"title": "Fateful Conversion",
+				"flavorText": "The relinquishment of fate births boundless power.",
+				"visualDescription": "A cascade of fate points transforms into a flurry of power points, illustrating the alchemical conversion of fate into raw power."
 			},
 			{
 				"suit": "clubs",
 				"rank": "jack",
-				"instructions": "if you have an even number of fate points, set your power to 12. If you have an odd number of fate points, set your fate to 6."
+				"instructions": "if you have an even number of fate points, set your power to 12. If you have an odd number of fate points, set your fate to 6.",
+				"title": "Dual Enigma",
+				"flavorText": "The enigmatic dance of fate and power reshapes your essence.",
+				"visualDescription": "A swirling vortex represents the interplay between fate and power, while two glowing orbs, one representing fate and the other power, hover above, indicating the transformation of one attribute based on the player's current state."
 			},
 			{
 				"suit": "clubs",
 				"rank": "queen",
-				"instructions": "If you have an odd number of fate points, set your power to 1. If you have an even number of fate points, set your fate to 1."
+				"instructions": "If you have an odd number of fate points, set your power to 1. If you have an even number of fate points, set your fate to 1.",
+				"title": "Converging Forces",
+				"flavorText": "The merging of fate and power forges new beginnings.",
+				"visualDescription": "Two intertwining streams, one representing fate and the other power, meet at a central point, where fate transitions into power or power transitions into fate, symbolizing the reconfiguration of the player's attributes."
 			},
 			{
 				"suit": "clubs",
 				"rank": "king",
-				"instructions": "Set your fate and power to 1."
+				"instructions": "Set your fate and power to 1.",
+				"title": "New Horizons",
+				"flavorText": "From the depths of rebirth, new potential emerges.",
+				"visualDescription": "A blazing phoenix rises from the ashes, symbolizing the transformation and renewal of fate and power as they reset to their starting points."
 			}
 		]
 	}
 }
+
