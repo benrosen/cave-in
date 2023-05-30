@@ -11,43 +11,143 @@
 			"stakeholders": [
 				{
 					"name": "The All-Father",
-					"description": "The omnipotent deity who created the world, the Dragons and the Giants. His influence lingers in the dungeon's foundations and its ancient energy."
+					"description": "The omnipotent deity who created the world, the Dragons and the Giants. His influence lingers in the dungeon's foundations and its ancient energy.",
+					"motifs": [
+						{
+							"name": "Celestial Symbols",
+							"description": "Representations of stars, planets, and other celestial bodies that symbolize the All-Father's cosmic domain can be seen etched on the dungeon's walls and ceilings."
+						},
+						{
+							"name": "Mystic Energy",
+							"description": "An omnipresent mystical energy permeates the dungeon, a subtle sign of the All-Father's enduring divine influence."
+						}
+					]
 				},
 				{
 					"name": "The Dragons",
-					"description": "The celestial beings created by the All-Father. Their magical essence is believed to be infused in the dungeon, drawing monstrous creatures and seekers of lore."
+					"description": "The celestial beings created by the All-Father. Their magical essence is believed to be infused in the dungeon, drawing monstrous creatures and seekers of lore.",
+					"motifs": [
+						{
+							"name": "Dragon Statues",
+							"description": "Large, intricate statues of Dragons can be found throughout the dungeon, representing their significance in the creation of the world."
+						},
+						{
+							"name": "Fiery Imprints",
+							"description": "Scorch marks and heat-warped stone structures bear testament to the Dragon's fiery breath, which they used to shape the dungeon."
+						}
+					]
 				},
 				{
 					"name": "The Giants",
-					"description": "Beings carved from the stones of the earth by the All-Father, co-creators of the land, and the ancestors of mortal races. Their influence can still be found in the dungeon's remaining carvings and statues."
+					"description": "Beings carved from the stones of the earth by the All-Father, co-creators of the land, and the ancestors of mortal races. Their influence can still be found in the dungeon's remaining carvings and statues.",
+					"motifs": [
+						{
+							"name": "Giant Carvings",
+							"description": "Enormous carvings, too large for mortal hands, adorn the dungeon walls and floors, illustrating the Giants' hand in shaping the world."
+						},
+						{
+							"name": "Stone Constructs",
+							"description": "The Giants' stonework is a notable feature of the dungeon, with its immense pillars and massive, solid doors."
+						}
+					]
 				},
 				{
 					"name": "The Forest",
-					"description": "The lush forest that surrounds and is slowly reclaiming the dungeon. It serves as both a protector and a danger to the dungeon."
+					"description": "The lush forest that surrounds and is slowly reclaiming the dungeon. It serves as both a protector and a danger to the dungeon.",
+					"motifs": [
+						{
+							"name": "Overgrowth",
+							"description": "Vegetation gradually encroaches upon the dungeon's architecture, wrapping stone and carving in creeping vines and moss."
+						},
+						{
+							"name": "Forest Creatures",
+							"description": "Sounds of wildlife permeate the dungeon's quieter sections, and small forest creatures can often be spotted within its confines."
+						}
+					]
 				},
 				{
 					"name": "Scholars and Adventurers",
-					"description": "The active stakeholders of the dungeon from present day mortal races. Scholars aim to understand its history and recover artifacts, while adventurers seek challenges and treasures."
+					"description": "The active stakeholders of the dungeon from present day mortal races. Scholars aim to understand its history and recover artifacts, while adventurers seek challenges and treasures.",
+					"motifs": [
+						{
+							"name": "Inscribed Knowledge",
+							"description": "Scholars have etched their findings and theories directly onto the dungeon's walls in various languages."
+						},
+						{
+							"name": "Remnants of Expeditions",
+							"description": "Discarded equipment, makeshift campsites, and markings indicating safe paths demonstrate the repeated presence of adventurers."
+						}
+					]
 				},
 				{
 					"name": "The Spirit of Eldrath",
-					"description": "The supernatural presence of a long-dead dragon believed to haunt the dungeon. The spirit is seen as a protector of the sacred ground and a threat to those disrespecting its premises."
+					"description": "The supernatural presence of a long-dead dragon believed to haunt the dungeon. The spirit is seen as a protector of the sacred ground and a threat to those disrespecting its premises.",
+					"motifs": [
+						{
+							"name": "Ethereal Echoes",
+							"description": "Unexplained sounds, such as dragon roars and flapping wings, often echo through the dungeon, said to be manifestations of Eldrath's spirit."
+						},
+						{
+							"name": "Shadowy Dragon Form",
+							"description": "Visitors occasionally report glimpses of a shadowy dragon-like figure passing through walls or flying overhead."
+						}
+					]
 				},
 				{
 					"name": "The Hibernus Guild",
-					"description": "A secretive faction of scholars focused on uncovering and safeguarding the ancient knowledge of the All-Father, Dragons, and Giants. They aim to study and preserve the dungeon."
+					"description": "A secretive faction of scholars focused on uncovering and safeguarding the ancient knowledge of the All-Father, Dragons, and Giants. They aim to study and preserve the dungeon.",
+					"motifs": [
+						{
+							"name": "Guild Symbols",
+							"description": "Hidden symbols and signs used by the Guild to communicate information and warnings can be found throughout the dungeon."
+						},
+						{
+							"name": "Preservation Measures",
+							"description": "Areas cordoned off for study, as well as evidence of careful restoration work, indicate the Guild's ongoing efforts to preserve the dungeon."
+						}
+					]
 				},
 				{
 					"name": "The Serpent's Eye",
-					"description": "A group of notorious treasure hunters focused on excavating ancient relics. They seek the dungeon's treasures, which puts them at odds with factions aiming to preserve the site."
+					"description": "A group of notorious treasure hunters focused on excavating ancient relics. They seek the dungeon's treasures, which puts them at odds with factions aiming to preserve the site.",
+					"motifs": [
+						{
+							"name": "Pilfered Chambers",
+							"description": "Rooms stripped of valuable artifacts, often with signs of reckless excavation, bear the signature of the Serpent's Eye."
+						},
+						{
+							"name": "Serpent Graffiti",
+							"description": "Graffiti of a serpent-encircled eye, the group's symbol, can be spotted in places where they've claimed treasure."
+						}
+					]
 				},
 				{
 					"name": "The Feral Beasts",
-					"description": "Monstrous creatures inhabiting the dungeon, drawn by the ancient energy. They pose a threat to adventurers and scholars alike."
+					"description": "Monstrous creatures inhabiting the dungeon, drawn by the ancient energy. They pose a threat to adventurers and scholars alike.",
+					"motifs": [
+						{
+							"name": "Claw and Bite Marks",
+							"description": "Deep scratches and bite marks on the stone, some still fresh, attest to the presence of the beasts."
+						},
+						{
+							"name": "Nests and Dens",
+							"description": "Hidden nests and dens within the dungeon's shadowy corners reveal the creatures' habitation."
+						}
+					]
 				},
 				{
 					"name": "The Dark Druids",
-					"description": "Rogue druids believing in nature's absolute claim over ruins. They use their magic to hasten the forest's reclamation of the dungeon, and actively thwart attempts to explore or restore it."
+					"description": "Rogue druids believing in nature's absolute claim over ruins. They use their magic to hasten the forest's reclamation of the dungeon, and actively thwart attempts to explore or restore it.",
+					"motifs": [
+						{
+							"name": "Accelerated Growth",
+							"description": "Areas of unusual plant growth within the dungeon indicate the Dark Druids' magic at work, as they seek to reclaim the structure for nature."
+						},
+						{
+							"name": "Druidic Glyphs",
+							"description": "Ancient glyphs imbued with nature magic mark the areas of the dungeon where the Druids have enacted their spells."
+						}
+					]
 				}
 			]
 		},
