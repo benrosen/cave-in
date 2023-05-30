@@ -7,20 +7,62 @@
 	"config": {
 		"lore": {
 			"creationMyth": "In the primordial age, the All-Father, an omnipotent deity, conjured the first celestial beings - the Dragons. These beings birthed stars as they roamed the formless void. However, they yearned for a world of their own, and the All-Father granted them this wish. Once terrestrial, they fashioned a vibrant world from the formless terrain. The All-Father sculpted another mighty race, the Giants, from the very stones of the earth. Recognizing their shared connection to the land, Dragons and Giants formed an alliance, shaping the continents and landscapes. With the advent of time, mortal races sprang from the Giants' blood, embodying the potential to mold the world. The All-Father granted them free will, enabling the creation of empires and the initiation of wars. The world, once under the harmonious rule of Dragons and Giants, splintered due to strife and conflict amongst these mortals.",
-			"setting": "Sequestered in the heart of a lush forest is the ancient dungeon of Eldrath's Sorrow. This relic, a testament to the time when Dragons and Giants held sway, was once a sacred proving ground for mortals see favor from these ancient beings. The once magnificent halls, adorned with intricate carvings and statues symbolizing the unity of Dragons and Giants, now lay derelict, ensnared by nature's reclaim. Yet, the dungeon remains a formidable fortress, housing monstrous creatures drawn to its lingering ancient energy. Traps lay waiting for the unsuspecting, ready to unleash their dormant wrath. Scholars and seekers of forgotten lore are drawn to Eldrath's Sorrow, hoping to uncover remnants of ancient artifacts and unlock secrets buried within its halls. Despite its decay, the dungeon's echoes of the past tell a tale of unity, conflict, and the unending struggle between darkness and light."
+			"setting": "Sequestered in the heart of a lush forest is the ancient dungeon of Eldrath's Sorrow. This relic, a testament to the time when Dragons and Giants held sway, was once a sacred proving ground for mortals see favor from these ancient beings. The once magnificent halls, adorned with intricate carvings and statues symbolizing the unity of Dragons and Giants, now lay derelict, ensnared by nature's reclaim. Yet, the dungeon remains a formidable fortress, housing monstrous creatures drawn to its lingering ancient energy. Traps lay waiting for the unsuspecting, ready to unleash their dormant wrath. Scholars and seekers of forgotten lore are drawn to Eldrath's Sorrow, hoping to uncover remnants of ancient artifacts and unlock secrets buried within its halls. Despite its decay, the dungeon's echoes of the past tell a tale of unity, conflict, and the unending struggle between darkness and light.",
+			"stakeholders": [
+				{
+					"name": "The All-Father",
+					"description": "The omnipotent deity who created the world, the Dragons and the Giants. His influence lingers in the dungeon's foundations and its ancient energy."
+				},
+				{
+					"name": "The Dragons",
+					"description": "The celestial beings created by the All-Father. Their magical essence is believed to be infused in the dungeon, drawing monstrous creatures and seekers of lore."
+				},
+				{
+					"name": "The Giants",
+					"description": "Beings carved from the stones of the earth by the All-Father, co-creators of the land, and the ancestors of mortal races. Their influence can still be found in the dungeon's remaining carvings and statues."
+				},
+				{
+					"name": "The Forest",
+					"description": "The lush forest that surrounds and is slowly reclaiming the dungeon. It serves as both a protector and a danger to the dungeon."
+				},
+				{
+					"name": "Scholars and Adventurers",
+					"description": "The active stakeholders of the dungeon from present day mortal races. Scholars aim to understand its history and recover artifacts, while adventurers seek challenges and treasures."
+				},
+				{
+					"name": "The Spirit of Eldrath",
+					"description": "The supernatural presence of a long-dead dragon believed to haunt the dungeon. The spirit is seen as a protector of the sacred ground and a threat to those disrespecting its premises."
+				},
+				{
+					"name": "The Hibernus Guild",
+					"description": "A secretive faction of scholars focused on uncovering and safeguarding the ancient knowledge of the All-Father, Dragons, and Giants. They aim to study and preserve the dungeon."
+				},
+				{
+					"name": "The Serpent's Eye",
+					"description": "A group of notorious treasure hunters focused on excavating ancient relics. They seek the dungeon's treasures, which puts them at odds with factions aiming to preserve the site."
+				},
+				{
+					"name": "The Feral Beasts",
+					"description": "Monstrous creatures inhabiting the dungeon, drawn by the ancient energy. They pose a threat to adventurers and scholars alike."
+				},
+				{
+					"name": "The Dark Druids",
+					"description": "Rogue druids believing in nature's absolute claim over ruins. They use their magic to hasten the forest's reclamation of the dungeon, and actively thwart attempts to explore or restore it."
+				}
+			]
 		},
 		"cards": [
 			{
 				"instructions": "Draw a card.",
-				"title": "Guide of the Lost",
-				"flavorText": "In the labyrinth of shadows, one must rely on whispers of the light.",
-				"visualDescription": "An explorer in weathered attire holds aloft a magical compass emitting a soft glow amidst a network of confusing tunnels."
+				"title": "Guide of the Forsaken",
+				"flavorText": "In the enigmatic maze of shadows, the forsaken find solace in the subtle whispers of the guiding light.",
+				"visualDescription": "In a hyper-realistic style, a weather-beaten explorer illuminates a dark, intricate labyrinth with a glowing ancient compass. He stands resolute amidst the ominous tunnels, a beacon of hope and determination."
 			},
 			{
 				"instructions": "Discard a card.",
-				"title": "Relinquished Load",
-				"flavorText": "Only in releasing the unnecessary can we journey forward unburdened.",
-				"visualDescription": "An adventurer releases a clunky satchel into a gaping abyss, a relieved look on their face."
+				"title": "Burden's Release",
+				"flavorText": "In the pursuit of progress, it's the weights discarded that truly measure the journey.",
+				"visualDescription": "In a hyper-realistic style, a weather-beaten explorer stands at the edge of an abyss deep underground. ethereal light illuminates the scene from below"
 			},
 			{
 				"instructions": "Draw a card. Discard a card.",
