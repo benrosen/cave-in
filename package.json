@@ -11,32 +11,24 @@
 		},
 		"cards": [
 			{
-				"suit": "spades",
-				"rank": "ace",
 				"instructions": "Draw a card.",
 				"title": "Guide of the Lost",
 				"flavorText": "In the labyrinth of shadows, one must rely on whispers of the light.",
 				"visualDescription": "An explorer in weathered attire holds aloft a magical compass emitting a soft glow amidst a network of confusing tunnels."
 			},
 			{
-				"suit": "spades",
-				"rank": "2",
 				"instructions": "Discard a card.",
 				"title": "Relinquished Load",
 				"flavorText": "Only in releasing the unnecessary can we journey forward unburdened.",
 				"visualDescription": "An adventurer releases a clunky satchel into a gaping abyss, a relieved look on their face."
 			},
 			{
-				"suit": "spades",
-				"rank": "3",
 				"instructions": "Draw a card. Discard a card.",
 				"title": "Path of Dilemma",
 				"flavorText": "A choice must be made, even when all paths bear thorns.",
 				"visualDescription": "At a daunting crossroads, each path fraught with its unique dangers, a wary traveler contemplates their decision."
 			},
 			{
-				"suit": "spades",
-				"rank": "4",
 				"instructions": "Draw two cards.",
 				"title": "Prospector's Fortune",
 				"flavorText": "The bold heart uncovers treasures the timid eyes cannot see.",
@@ -109,64 +101,48 @@
 				"visualDescription": "An ethereal scale levitates in a celestial void, a luminescent point shimmering on one side and a dim one on the other, symbolizing the precarious balance of fate."
 			},
 			{
-				"suit": "diamonds",
-				"rank": "3",
 				"instructions": "Roll for fate. If you roll a 1 or a 2, gain a power point. If you roll a 3 or a 4, gain a fate point. If you roll a 5 or a 6, draw a card.",
 				"title": "Circlet of Prophecy",
 				"flavorText": "Through the circlet, the threads of destiny weave myriad outcomes.",
 				"visualDescription": "A mystical circlet, adorned with arcane symbols, hovers over a cosmic backdrop. Beneath it, ethereal dice roll, their faces glowing with potential outcomes."
 			},
 			{
-				"suit": "diamonds",
-				"rank": "4",
 				"instructions": "Roll for fate. On an even number, gain that many power points. On an odd number, lose that many fate points.",
 				"title": "Equilibrium of the Cosmos",
 				"flavorText": "Within the cosmos, every action ripples through the fabric of existence.",
 				"visualDescription": "A celestial scale is suspended amidst the cosmos, one side holding radiant power points, the other, dwindling fate points, representing the cosmic balance at stake."
 			},
 			{
-				"suit": "diamonds",
-				"rank": "5",
 				"instructions": "Roll for fate. Draw that many cards. Shuffle that many cards from your hand into the deck.",
 				"title": "Rhythms of Fortuity",
 				"flavorText": "The drumbeat of fate resounds, shaping the symphony of chance.",
 				"visualDescription": "An ancient drum, pounded by unseen forces, sends ripples through a serene pool, while cards float and swirl in the rhythmic cadence."
 			},
 			{
-				"suit": "diamonds",
-				"rank": "6",
 				"instructions": "Roll for fate. Lose that many fate points. Lose that many power points. Draw that many cards.",
 				"title": "Fractured Continuum",
 				"flavorText": "As destiny unravels, fragments of chance and power scatter to the winds.",
 				"visualDescription": "A temporal vortex pulls at the threads of power and fate, cards slipping through the fractures and spiraling towards an unknown abyss."
 			},
 			{
-				"suit": "diamonds",
-				"rank": "7",
 				"instructions": "Roll for fate. Gain that many fate points. Gain that many power points. Discard that many cards.",
 				"title": "Celestial Resurgence",
 				"flavorText": "In the heart of the cosmos, the equilibrium of energies is perpetually renewed.",
 				"visualDescription": "Constellations converge in a celestial dance, their radiant energies igniting a shower of stardust that reabsorbs dissipating cards, symbolizing the cyclical rejuvenation of fate and power."
 			},
 			{
-				"suit": "diamonds",
-				"rank": "8",
 				"instructions": "Roll for fate. On an even number, draw that many cards. On an odd number, shuffle that many cards from the discard pile into the deck.",
 				"title": "Reverberations of Fate",
 				"flavorText": "Fate's echoes whisper of what was and hint at what may yet be.",
 				"visualDescription": "Ghostly apparitions of past actions manifest as cards, reborn from the abyss, and get reshuffled into the cosmic deck, embodying the cyclical dance of fate."
 			},
 			{
-				"suit": "diamonds",
-				"rank": "9",
 				"instructions": "Roll for fate. If you roll higher than your current power total, gain a power point and reroll. If you roll lower than your current power total, lose three power points.",
 				"title": "Conundrum of Might",
 				"flavorText": "In the realm of power, fortune can be a formidable ally or a fierce adversary.",
 				"visualDescription": "A metaphysical scale teeters on the edge, its balance threatened by glowing power points and a diminishing power symbol, reflecting the risky dance of strength."
 			},
 			{
-				"suit": "diamonds",
-				"rank": "10",
 				"instructions": "Roll for fate. If you roll the same number as your current power total, draw twice that number of cards. If you roll a different number than your current power total, lose twice that many power points.",
 				"title": "Cycles of Dominance",
 				"flavorText": "The relentless tides of power transform into ebbs and surges at fate's whim.",
@@ -191,8 +167,6 @@
 				"visualDescription": "An ominous die, glimmering with cosmic power, hovers above a hand that seems both ready and apprehensive. The scene captures the transformative moment that will redefine power."
 			},
 			{
-				"suit": "hearts",
-				"rank": "ace",
 				"instructions": "Gain a fate point.",
 				"title": "Resilience of Valor",
 				"flavorText": "The inner flame of courage never wavers, even in the deepest darkness.",
@@ -259,96 +233,72 @@
 				"visualDescription": "A heart-themed gaming table hosts spectral pieces, symbolizing the potential risks and rewards of this daring venture."
 			},
 			{
-				"suit": "hearts",
-				"rank": "queen",
 				"instructions": "Roll for fate. If you roll higher than 11, gain a fate point. If you roll lower than 12, lose 11 power points.",
 				"title": "Regalia of Renewal",
 				"flavorText": "Through resilience, the heart breathes life into faltering embers of strength.",
 				"visualDescription": "A regal crown, gleaming with symbols of courage and vitality, cradles a heart-shaped flame, illustrating the revival of dwindling might."
 			},
 			{
-				"suit": "hearts",
-				"rank": "king",
 				"instructions": "Lose 12 power points.",
 				"title": "Valiant Offering",
 				"flavorText": "In the face of adversity, the strength of sacrifice becomes the fuel for the inner fire.",
 				"visualDescription": "A burning heart-shaped flame fiercely radiates light, even as surrounding symbols of power fade, underscoring the transformative nature of sacrifice."
 			},
 			{
-				"suit": "clubs",
-				"rank": "ace",
 				"instructions": "Gain a power point",
 				"title": "Emanation of Might",
 				"flavorText": "The fountainhead of fortitude begins to surge.",
 				"visualDescription": "A mystic geyser radiates vitality, an outstretched hand reaches to touch the source, manifesting the embodiment of burgeoning power."
 			},
 			{
-				"suit": "clubs",
-				"rank": "2",
 				"instructions": "Gain a fate point",
 				"title": "Benevolence of Destiny",
 				"flavorText": "The hand of providence extends its benevolent touch.",
 				"visualDescription": "A celestial palm descends from the ether, bestowing a glowing destiny point, reciprocated by a mortal hand reaching upwards, signifying alignment with the course of destiny."
 			},
 			{
-				"suit": "clubs",
-				"rank": "3",
 				"instructions": "Sacrifice a fate point. Gain a power point.",
 				"title": "Arcane Transaction",
 				"flavorText": "The equilibrium of might is crafted through relinquishment.",
 				"visualDescription": "A swirling nexus manifests the exchange of destiny for strength, their energies merging in a brilliant fusion of ethereal hues."
 			},
 			{
-				"suit": "clubs",
-				"rank": "4",
 				"instructions": "Sacrifice a power point. Gain a fate point.",
 				"title": "Invigorating Revival",
 				"flavorText": "The potency of relinquishment fosters the ascent of destiny.",
 				"visualDescription": "A waning symbol of might fades, as a luminous destiny point emerges from its ashes, encapsulating the transformative essence of surrender on destiny's path."
 			},
 			{
-				"suit": "clubs",
-				"rank": "5",
 				"instructions": "Gain two power points.",
 				"title": "Amplified Ascendancy",
 				"flavorText": "The influx of vitality kindles the flame of dominance.",
 				"visualDescription": "Sparks of might ricochet between twin points, demonstrating the surge in strength and the electrifying tension of newfound power."
 			},
 			{
-				"suit": "clubs",
-				"rank": "6",
 				"instructions": "Gain two fate points.",
 				"title": "Destiny's Confluence",
 				"flavorText": "The intertwining strands of fortune fuel destiny's ascension.",
 				"visualDescription": "A myriad of converging paths unify at a central hub, where twin destiny points materialize, signifying the fusion of potentialities and their impact on one's course."
 			},
 			{
-				"suit": "clubs",
-				"rank": "7",
 				"instructions": "Sacrifice two fate points. Gain three power points.",
 				"title": "Equitable Relinquishment",
 				"flavorText": "The pendulum of relinquishment swings in favor of might.",
 				"visualDescription": "An antique scale, destiny points weighing down one pan and power points the other, tips towards might as destiny dwindles, demonstrating the essential sacrifices on the path to greatness."
 			},
 			{
-				"suit": "clubs",
-				"rank": "8",
 				"instructions": "Sacrifice two power points. Gain three fate points.",
 				"title": "Destiny's Resurgence",
 				"flavorText": "The resurgence of destiny replenishes the receding wellspring of might.",
 				"visualDescription": "A fading symbol of might rekindles as three vibrant destiny points burst forth, portraying the rejuvenation of fortune and the metamorphosis of surrender into revitalized power."
 			},
 			{
-				"suit": "clubs",
-				"rank": "9",
 				"instructions": "If you have an even number of fate points, gain a power point. If you have an odd number of fate points, lose a power point.",
 				"title": "Fickle Equilibrium",
 				"flavorText": "The capricious ballet of destiny teeters on the verge of might's abyss.",
 				"visualDescription": "A precarious balance beam wavers between destiny and power, with one's current fortune and strength represented on opposing ends, underscoring the delicate balance between the two."
 			},
 			{
-				"suit": "clubs",
-				"rank": "10",
 				"instructions": "Sacrifice all of your fate points. Gain that many power points.",
 				"title": "Destiny's Alchemy",
 				"flavorText": "The surrender of destiny births boundless might.",
