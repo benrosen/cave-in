@@ -86,21 +86,39 @@
 				"instructions": "Shuffle the discard pile into the deck."
 			},
 			{
+				"title": "Trial of the Dragon's Breath",
+				"flavorText": "In the heart of the Dragon's Gallery, the air shimmers with residual heat. Fire and fury once shaped these halls. Can you withstand the remnants of their wrath?",
+				"visualDescription": "The room pulses with an uncanny heat, and towering dragon statues cast elongated shadows on scorched stone. Patches of the floor still glow faintly, remnants of dragonfire from a bygone era. You can almost hear the flapping of massive wings echoing in the heated silence.",
 				"instructions": "Roll fate. On an even number, draw a card. On an odd number, discard a card."
 			},
 			{
-				"instructions": "Roll fate. On an even number, gain a fate point. On an odd number, lose a fate point."
+				"title": "Eldrath's Ethereal Judgement",
+				"visual_description": "You find yourself in a shadowy chamber, its arched ceiling seemingly suspended in the abyss. The room pulses with an eerie, blue glow, and a chill runs down your spine. Across the walls, the faint, shadowy form of a Dragon appears and disappears, its roars echoing around the room as if coming from everywhere and nowhere at the same time.",
+				"flavor_text": "In this spectral chamber, the spirit of Eldrath the Dragon weighs your worth. Will you receive Eldrath's spectral blessing or face his ethereal wrath? The echo of his roars will be your answer.",
+				"instructions": "Roll fate. On an even number, gain a luck point. On an odd number, lose a luck point."
 			},
 			{
-				"instructions": "Roll fate. If you roll a 1 or a 2, gain a health point. If you roll a 3 or a 4, gain a luck point. If you roll a 5 or a 6, draw a card."
+				"title": "The Overgrown Conservatory",
+				"instructions": "Roll fate. If you roll a 1 or a 2, gain a health point. If you roll a 3 or a 4, gain a luck point. If you roll a 5 or a 6, draw a card.",
+				"flavorText": "In this room, nature’s reach extends beyond its usual limits under the influence of the Dark Druids. Exotic vines choke the stonework, their rapid growth spurred on by druidic glyphs. Amongst the dense foliage, enticing berries of myriad colors beckon with the promise of unexpected boons.",
+				"visualDescription": "You step into a verdant paradise, bursting with life. The crumbling stone architecture is blanketed with lush greenery, featuring flowers of otherworldly hues and tangled vines laden with bright berries. Druidic glyphs hum with latent power amidst the vegetation, their arcane energies accelerating the growth of the plants. The rustling leaves seem to whisper ancient secrets, and the air is thick with the fragrant aroma of the thriving flora."
 			},
 			{
+				"title": "The Sanctuary of Chains",
+				"flavorText": "The Sanctuary of Chains, a paradoxical haven, offers the promise of safety at the cost of your freedom. Here, the Giants' stone constructs surround you, their eyes seeming to promise protection, yet their immense, stoic forms also serve as an oppressive barrier. One must be willing to bear the weight of their chains to bask in the glow of their protection.",
+				"visualDescription": "The room is a vast stone chamber, lined with towering, chained statues of Giants. Their outstretched arms are linked by heavy, unbreakable chains, forming a protective circle around the room. The chains glimmer with an otherworldly light, emanating a comforting warmth yet radiating an undeniable sense of confinement.",
 				"instructions": "Roll fate. On an even number, gain that many health points. On an odd number, lose that many luck points."
 			},
 			{
-				"instructions": "Roll fate. Draw that many cards. Shuffle that many cards from your hand into the deck."
+				"title": "The Seedling's Cradle",
+				"flavorText": "A microcosm of life and death, renewal and decay. Here, in the dungeon's heart, life emerges from the remnants of the old. The cycle never ends.",
+				"instructions": "Roll fate. Draw that many cards. Shuffle that many cards from your hand into the deck.",
+				"visualDescription": "A small nook within the dungeon is teeming with life. Moss, lichen, and mushrooms of all colors colonize the stone floor, and the carcass of a long-deceased creature provides fertile ground for new growth. A single seedling emerges from the decay, its green leaves a stark contrast against the darkness. As you watch, a fruit falls from the seedling, and immediately starts to decompose, nourishing the tiny life below. This place hums with quiet energy, the air rich with the scent of earth and new growth, a testament to the Forest's encroaching influence."
 			},
 			{
+				"title": "The Lair of the Shadow Beast",
+				"flavorText": "Your heart pounds in sync with the pulsing echo from the heart of the darkness. You're no longer the hunter, but the prey. You brace yourself - survival here comes at a cost.",
+				"visualDescription": "A cavernous chamber filled with the palpable tension of a predator's domain. Shadowy corners bristle with the matted fur of monstrous nests. Claw marks scar the stone walls, while scattered bones of previous trespassers gleam ominously under the faint luminescence of phosphorescent fungi. The silence is broken occasionally by a low growl, reverberating through the air, a chilling reminder of the feral inhabitants of this den.",
 				"instructions": "Roll fate. Lose that many luck points. Lose that many health points. Draw that many cards."
 			},
 			{
