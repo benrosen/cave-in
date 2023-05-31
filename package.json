@@ -1,13 +1,251 @@
 {
 	"name": "cave-in",
+	"description": "You are an adventurer trapped deep within the forgotten dungeon Eldrath's Sorrow. Your goal is to navigate through the dungeon one room (card) at a time until you've made it through the entire dungeon (deck).",
 	"version": "1.0.0",
 	"devDependencies": {
 		"prettier": "^2.8.8"
 	},
 	"config": {
+		"cards": [
+			{
+				"title": "The Scholars' Study",
+				"flavorText": "A musty scent of parchment hangs in the air as forgotten theories whisper from the inscribed walls. Even in this forgotten place, the thirst for knowledge perseveres.",
+				"visualDescription": "A secluded chamber filled with half-finished etchings and dusty stone tablets. Symbols of the Hibernus Guild punctuate the knowledge inscribed on the walls, while discarded equipment suggests the hurried retreat of its scholars. A faint glow of the All-Father's mystic energy lingers in the air.",
+				"instructions": "Draw a card."
+			},
+			{
+				"title": "The Chamber of Abandoned Vows",
+				"flavorText": "Long forgotten promises echo in the musty air. Every discarded pledge here whispers of the dungeon's grip, breaking the resolve of explorers and turning ambition to regret.",
+				"visualDescription": "The room is littered with discarded equipment from past adventurers; old maps, broken blades, and worn-out boots are strewn about. Walls bear the inscribed, faded pledges of those who entered, but never emerged. The echo of whispers and the cold air serves as a stark reminder of their broken vows.",
+				"instructions": "Discard a card."
+			},
+			{
+				"title": "The Altar of Echoing Abyss",
+				"flavorText": "A monument to choices and sacrifices made by past adventurers stands solemnly at the abyss's edge. Their whispers, full of hope and despair, echo through the hallowed chamber, a testament to their unfulfilled destinies.",
+				"visualDescription": "An ancient altar carved of worn stone sits at the precipice of a yawning chasm. Eroded symbols of the All-Father are faintly visible on its surface, alongside remnants of offerings, sacrificed in the hopes of safe passage through the dungeon.",
+				"instructions": "Draw a card. Discard a card."
+			},
+			{
+				"title": "Passage of Prophetic Glimpses",
+				"flavorText": "Whispers of the All-Father's cosmic wisdom echo through this starlit tunnel. Every footfall stirs ancient energy, and the celestial symbols pulse with a silent promise of enlightenment.",
+				"visualDescription": "The tunnel's ceiling is illuminated with a soft glow, casting eerie shadows on the mystical inscriptions that cover the walls. Mysterious orbs of light float in the air, reminiscent of distant stars. The way ahead is shrouded in semi-darkness, enticing you deeper into the secrets of the cosmos.",
+				"instructions": "Draw two cards."
+			},
+			{
+				"title": "Hall of Recurring Fates",
+				"instructions": "Discard a card. Shuffle a card from the discard pile back into the deck.",
+				"flavorText": "The intricate dragon-carved walls of this vast hall whisper tales of past adventurers who faced the same challenges. Every choice resonates in the air, feeding the cycle of renewal, for in this dungeon, every decision is both an ending and a new beginning.",
+				"visualDescription": "This grandiose room houses towering dragon statues, their shadows flickering with the ethereal glow of mystic energy. The walls are adorned with inscriptions of the All-Father, intertwining with the dragon carvings. In the center, a circular stone platform pulses softly with an ancient power, influencing the path of those who dare to enter."
+			},
+			{
+				"title": "Scout's Outlook",
+				"instructions": "Draw three cards.",
+				"flavorText": "You discover a vantage point used by past adventurers, a makeshift map etched into the stone. The paths forward are suddenly clear, each direction leading to unseen chambers echoing with untold histories.",
+				"visualDescription": "You find yourself standing at a high point in the dungeon, offering an overview of numerous interconnected chambers and corridors sprawling beneath you. A rough sketch has been etched onto the stone floor at your feet, depicting pathways and the crude symbols of various chambers. You see marked routes to the echoing Abyss, the verdant Cloister, and the unsettling Den of Serpents. Soft, ghostly whispers carried on an underground draft brush against your ears, a chilling symphony of past events resonating from the depths of the dungeon."
+			},
+			{
+				"title": "The Chamber of Choices",
+				"instructions": "Draw three cards. Discard three cards.",
+				"flavorText": "The serpentine paths etched into the walls of the chamber hint at the multitude of fates that could unfold. Here, in the heart of Eldrath's Sorrow, choices bear the weight of survival and knowledge, sculpting the tale of your journey. Beware, for every decision echoes through the sprawling labyrinth, shaping your destiny.",
+				"visualDescription": "The chamber is filled with a labyrinthine pattern of ancient paths and corridors carved into the walls, an intricate, beautiful, and terrifying reminder of the dungeon's vastness. Small pedestals holding abandoned relics and hastily discarded scrolls stand scattered around the room, silent testimonials of past explorers who faced their crossroads here. The room's dimly lit stone surfaces reflect the flicker of your torchlight, casting long shadows that sway and morph, mirroring the ebb and flow of the countless possibilities that lie ahead."
+			},
+			{
+				"title": "Portal of the All-Father",
+				"instructions": "Shuffle your hand into the deck. Re-draw that many cards.",
+				"flavorText": "Through the All-Father's gate, the echo of creation reverberates, reshaping the path to destiny.",
+				"visualDescription": "A towering stone archway etched with celestial symbols glows with an otherworldly light in the heart of the dungeon. Flecks of stardust seem to swirl within the portal, and a sense of overwhelming cosmic power emanates from it. Eldrath's shadowy form is seen flitting around, paying homage to the All-Father's might, as the whispers of scholars and adventurers reverberate, hinting at tales of awe and caution."
+			},
+			{
+				"title": "The Sinkhole of Skyward Longing",
+				"flavor_text": "Within the stone-ringed cavity, sunlight dares to descend, sparking whispers of freedom. Lift your eyes, weary traveler. Embrace the fleeting respite in the midst of your descent.",
+				"visual_description": "A vast, circular chasm penetrates the dungeon, providing a vertiginous glimpse of the clear sky above. Overgrown vines from the encroaching forest edge into the stony perimeter, casting dancing shadows on the ground as they sway with the breeze. Sunlight illuminates the space, casting a stark contrast against the surrounding darkness, invoking a promise of the surface world.",
+				"instructions": "Discard your hand."
+			},
+			{
+				"title": "Dash through the Beast's Den",
+				"instructions": "Discard your hand. Draw a card.",
+				"flavorText": "A shrill screech echoes through the room as the Feral Beast mother's slumber is disturbed. With her litter of snarling young ones around, it's best to make haste and slip into the shadows of the adjacent chamber.",
+				"visualDescription": "A hidden den, nestled in the corner of a stone room, teems with restless baby beasts, their sharp teeth gleaming in the dim light. The mother beast, a large, imposing figure with burning eyes, rises to her full height, snarling at the intruder. The adventurer, a fleeting shadow in the backdrop, retreats quickly, making for a partially collapsed doorway that leads to the darkness of the next room."
+			},
+			{
+				"title": "The All-Father's Reprieve",
+				"flavor_text": "In the deepest despair of the dungeon's depths, the All-Father's light permeates the darkness. Will you seize this divine opportunity, or falter under the weight of your journey?",
+				"visual_description": "A faint, otherworldly light illuminates the intricate celestial etchings on the dungeon walls. A mysterious, benevolent energy pulses around you, its subtle warmth promising a momentary respite.",
+				"instructions": "Pick any card from the deck. Shuffle the deck. Discard a card."
+			},
+			{
+				"title": "The Vault of Visions",
+				"visualDescription": "An ancient chamber, rich in the mystic energy of the All-Father, is revealed. The walls are adorned with celestial symbols glowing softly, their light dancing on piles of scrolls left by scholars from different eras. Statues of dragons stand at each corner of the room, their eyes seemingly following every move with an unnerving intensity. In the center, a magical vortex, swirling with vibrant colors, awaits to shape the path of the beholder.",
+				"flavorText": "Here lies the power of foresight, a gift of the All-Father, a curse to the unworthy. This chamber, filled with whispers of past, present, and future, demands a choice from those who dare to gaze into its depths.",
+				"instructions": "Draw three cards. Put one in your hand, one in the discard pile, and one on top of the deck."
+			},
+			{
+				"title": "The Abyssal Fall",
+				"flavorText": "The dungeon breathes. Its labyrinthine depths conspire to mislead the unwary. In the echoing abyss, a misstep can be a journey's end... or a new beginning.",
+				"visualDescription": "A deceptively peaceful spot by the Echoing Abyss, where an unsuspecting footfall can lead to a plummet into the abyss. Deep scratches and bite marks on the nearby stones speak of the Feral Beasts that lurk in the shadows, silently observing the misfortune of unwary adventurers. As you tumble further into the abyss, the faintest roars of Eldrath's spirit echo a chilling welcome.",
+				"instructions": "Shuffle the discard pile into the deck."
+			},
+			{
+				"instructions": "Roll fate. On an even number, draw a card. On an odd number, discard a card."
+			},
+			{
+				"instructions": "Roll fate. On an even number, gain a fate point. On an odd number, lose a fate point."
+			},
+			{
+				"instructions": "Roll fate. If you roll a 1 or a 2, gain a health point. If you roll a 3 or a 4, gain a luck point. If you roll a 5 or a 6, draw a card."
+			},
+			{
+				"instructions": "Roll fate. On an even number, gain that many health points. On an odd number, lose that many luck points."
+			},
+			{
+				"instructions": "Roll fate. Draw that many cards. Shuffle that many cards from your hand into the deck."
+			},
+			{
+				"instructions": "Roll fate. Lose that many luck points. Lose that many health points. Draw that many cards."
+			},
+			{
+				"instructions": "Roll fate. Gain that many luck points. Gain that many health points. Discard that many cards."
+			},
+			{
+				"instructions": "Roll fate. On an even number, draw that many cards. On an odd number, shuffle that many cards from the discard pile into the deck."
+			},
+			{
+				"instructions": "Roll fate. If you roll higher than your current health total, gain a health point and reroll. If you roll lower than your current health total, lose three health points."
+			},
+			{
+				"instructions": "Roll fate. If you roll the same number as your current health total, draw twice that number of cards. If you roll a different number than your current health total, lose twice that many health points."
+			},
+			{
+				"instructions": "Roll fate. If you roll a 1, 2, or 3, lose a health point for each card in your hand. If you roll a 4, 5, or 6, gain a health point for each card in your hand."
+			},
+			{
+				"instructions": "Roll fate. If you roll a 1, 2, or 3, lose a luck point for each card in your hand. If you roll a 4, 5, or 6, gain a luck point for each card in your hand."
+			},
+			{
+				"instructions": "Roll fate. If you roll a 1, set your health to 12. If you roll anything other than a 1, set your health level to 1."
+			},
+			{
+				"instructions": "Gain a luck point."
+			},
+			{
+				"instructions": "Roll fate. If you roll higher than 1, gain a luck point. If you roll a 1, lose a health point."
+			},
+			{
+				"instructions": "Roll fate. If you roll higher than 2, gain a luck point. If you roll lower than 3, lose 2 health points."
+			},
+			{
+				"instructions": "Roll fate. If you roll higher than 3, gain a luck point. If you roll lower than 4, lose 3 health points."
+			},
+			{
+				"instructions": "Roll fate. If you roll higher than 4, gain a luck point. If you roll lower than 5, lose 4 health points."
+			},
+			{
+				"instructions": "Roll fate. If you roll higher than 5, gain a luck point. If you roll lower than 6, lose 5 health points."
+			},
+			{
+				"instructions": "Roll fate. If you roll higher than 6, gain a luck point. If you roll lower than 7, lose 6 health points."
+			},
+			{
+				"instructions": "Roll fate. If you roll higher than 7, gain a luck point. If you roll lower than 8, lose 7 health points."
+			},
+			{
+				"instructions": "Roll fate. If you roll higher than 8, gain a luck point. If you roll lower than 9, lose 8 health points."
+			},
+			{
+				"instructions": "Roll fate. If you roll higher than 9, gain a luck point. If you roll lower than 10, lose 9 health points."
+			},
+			{
+				"instructions": "Roll fate. If you roll higher than 10, gain a luck point. If you roll lower than 11, lose 10 health points."
+			},
+			{
+				"instructions": "Roll fate. If you roll higher than 11, gain a luck point. If you roll lower than 12, lose 11 health points."
+			},
+			{
+				"instructions": "Lose 12 health points."
+			},
+			{
+				"instructions": "Gain a health point"
+			},
+			{
+				"instructions": "Gain a luck point"
+			},
+			{
+				"instructions": "Sacrifice a luck point. Gain a health point."
+			},
+			{
+				"instructions": "Sacrifice a health point. Gain a luck point."
+			},
+			{
+				"instructions": "Gain two health points."
+			},
+			{
+				"instructions": "Gain two luck points."
+			},
+			{
+				"instructions": "Sacrifice two luck points. Gain three health points."
+			},
+			{
+				"instructions": "Sacrifice two health points. Gain three luck points."
+			},
+			{
+				"instructions": "If you have an even number of luck points, gain a health point. If you have an odd number of luck points, lose a health point."
+			},
+			{
+				"instructions": "Sacrifice all of your luck points. Gain that many health points."
+			},
+			{
+				"instructions": "if you have an even number of luck points, set your health to 12. If you have an odd number of luck points, set your luck to 6."
+			},
+			{
+				"instructions": "If you have an odd number of luck points, set your health to 1. If you have an even number of luck points, set your luck to 1."
+			},
+			{
+				"instructions": "Set your luck and health to 1."
+			}
+		],
 		"lore": {
-			"creationMyth": "In the primordial age, the All-Father, an omnipotent deity, conjured the first celestial beings - the Dragons. These beings birthed stars as they roamed the formless void. However, they yearned for a world of their own, and the All-Father granted them this wish. Once terrestrial, they fashioned a vibrant world from the formless terrain. The All-Father sculpted another mighty race, the Giants, from the very stones of the earth. Recognizing their shared connection to the land, Dragons and Giants formed an alliance, shaping the continents and landscapes. With the advent of time, mortal races sprang from the Giants' blood, embodying the potential to mold the world. The All-Father granted them free will, enabling the creation of empires and the initiation of wars. The world, once under the harmonious rule of Dragons and Giants, splintered due to strife and conflict amongst these mortals.",
-			"setting": "Sequestered in the heart of a lush forest is the ancient dungeon of Eldrath's Sorrow. This relic, a testament to the time when Dragons and Giants held sway, was once a sacred proving ground for mortals see favor from these ancient beings. The once magnificent halls, adorned with intricate carvings and statues symbolizing the unity of Dragons and Giants, now lay derelict, ensnared by nature's reclaim. Yet, the dungeon remains a formidable fortress, housing monstrous creatures drawn to its lingering ancient energy. Traps lay waiting for the unsuspecting, ready to unleash their dormant wrath. Scholars and seekers of forgotten lore are drawn to Eldrath's Sorrow, hoping to uncover remnants of ancient artifacts and unlock secrets buried within its halls. Despite its decay, the dungeon's echoes of the past tell a tale of unity, conflict, and the unending struggle between darkness and light.",
+			"notableLocations": [
+				{
+					"name": "The Dragon's Gallery",
+					"description": "A grand hall lined with towering statues of dragons and marked by scorch marks and heat-warped stone structures. Mysterious dragon roars and ethereal echoes fill the air, a chilling reminder of the Dragons' lingering presence."
+				},
+				{
+					"name": "The Giants' Sanctum",
+					"description": "An expansive room featuring colossal stone constructs and giant carvings. The sanctum still echoes with the whispers of ancient giants, their history deeply embedded in the stone."
+				},
+				{
+					"name": "The Celestial Observatory",
+					"description": "A high-domed room filled with intricate etchings of celestial bodies. A nexus of the All-Father's mystic energy, the observatory serves as a testament to the divine cosmos."
+				},
+				{
+					"name": "The Forgotten Campsite",
+					"description": "An abandoned campsite scattered with discarded equipment and marked paths. The campsite offers a glimpse into the lives of past adventurers who dared to explore Eldrath's Sorrow."
+				},
+				{
+					"name": "The Scholar's Archive",
+					"description": "A room filled with inscriptions and symbols left by the Hibernus Guild. Sections cordoned off for study and signs of restoration work signify the guild's ongoing efforts to unravel the dungeon's secrets."
+				},
+				{
+					"name": "The Echoing Abyss",
+					"description": "An enormous, deep chasm in the heart of the dungeon filled with dense darkness and echoing whispers. Its walls are etched with faded giant carvings and claw marks of unseen beasts."
+				},
+				{
+					"name": "The Verdant Cloister",
+					"description": "A cloister where the encroaching forest has made significant inroads. Overgrown with vines and moss, this section of the dungeon exhibits a potent influence of the Dark Druids."
+				},
+				{
+					"name": "The Pillar of Stars",
+					"description": "A tall, cylindrical room with a pillar in the center covered in celestial symbols. Scholars' inscriptions cover the base of the pillar, indicating theories about its purpose and origin."
+				},
+				{
+					"name": "The Den of Serpents",
+					"description": "A hidden chamber believed to be the meeting place of the Serpent's Eye. The room is stripped of valuable artifacts, with signs of reckless excavation and the graffiti of a serpent-encircled eye."
+				},
+				{
+					"name": "The Throne of Giants",
+					"description": "A grand room dominated by a giant stone throne surrounded by large carvings displaying scenes of Giants shaping the continents and landscapes. Despite the desolation of time, the throne room maintains an aura of formidable strength and grandeur."
+				}
+			],
 			"stakeholders": [
 				{
 					"name": "The All-Father",
@@ -151,320 +389,32 @@
 				}
 			]
 		},
-		"cards": [
-			{
-				"instructions": "Draw a card.",
-				"title": "Guide of the Forsaken",
-				"flavorText": "In the enigmatic maze of shadows, the forsaken find solace in the subtle whispers of the guiding light.",
-				"visualDescription": "In a hyper-realistic style, a weather-beaten explorer illuminates a dark, intricate labyrinth with a glowing ancient compass. He stands resolute amidst the ominous tunnels, a beacon of hope and determination."
+		"rules": {
+			"gameSetUp": {
+				"steps": [
+					"Shuffle all the cards to form the deck.",
+					"Draw two cards from the deck to form your starting hand.",
+					"Set your health to 6 by using the D12 health dice.",
+					"Set your luck to 1 using the D6 luck dice."
+				]
 			},
-			{
-				"instructions": "Discard a card.",
-				"title": "Burden's Release",
-				"flavorText": "In the pursuit of progress, it's the weights discarded that truly measure the journey.",
-				"visualDescription": "In a hyper-realistic style, a weather-beaten explorer stands at the edge of an abyss deep underground. ethereal light illuminates the scene from below"
-			},
-			{
-				"instructions": "Draw a card. Discard a card.",
-				"title": "Path of Dilemma",
-				"flavorText": "A choice must be made, even when all paths bear thorns.",
-				"visualDescription": "At a daunting crossroads, each path fraught with its unique dangers, a wary traveler contemplates their decision."
-			},
-			{
-				"instructions": "Draw two cards.",
-				"title": "Prospector's Fortune",
-				"flavorText": "The bold heart uncovers treasures the timid eyes cannot see.",
-				"visualDescription": "An overflowing coffer of ancient relics and sparkling jewels is discovered in a concealed alcove."
-			},
-			{
-				"instructions": "Discard a card. Shuffle a card from the discard pile back into the deck.",
-				"title": "Circle of Echoes",
-				"flavorText": "In the grand weave of time, the old threads intertwine with the new.",
-				"visualDescription": "A towering tree, its roots reaching deep, stands as a monument to time. Wisps of light float from the ground, symbolizing the return of old memories."
-			},
-			{
-				"instructions": "Draw three cards.",
-				"title": "Oracle's Enlightenment",
-				"flavorText": "Enlightenment does not dispel the dark, but it gifts the courage to navigate through it.",
-				"visualDescription": "An elder sage unfurls a glowing manuscript, casting a light that illuminates cryptic runes on surrounding walls."
-			},
-			{
-				"instructions": "Draw three cards. Discard three cards.",
-				"title": "Equilibrium's Test",
-				"flavorText": "Balance is the dance between holding on and letting go.",
-				"visualDescription": "A poised acrobat maintains a delicate balance on a high wire, juggling three ethereal orbs representing the transient nature of decisions."
-			},
-			{
-				"instructions": "Shuffle your hand into the deck. Re-draw that many cards.",
-				"title": "Hand of Destiny",
-				"flavorText": "Sometimes, fate must be reshuffled for new beginnings.",
-				"visualDescription": "A celestial hand turns an enchanted hourglass, its sands transforming into a cyclone of glyphs and symbols, reshaping the fate of a bystander."
-			},
-			{
-				"instructions": "Discard your hand.",
-				"title": "Embrace of the Void",
-				"flavorText": "In surrender to the abyss, the path to rebirth unfolds.",
-				"visualDescription": "A figure stands at the edge of an inscrutable abyss, their hands open in a gesture of relinquishment and acceptance."
-			},
-			{
-				"instructions": "Discard your hand. Draw a card.",
-				"title": "Rising of the Phoenix",
-				"flavorText": "From the cinders of the old, the new takes flight.",
-				"visualDescription": "A radiant phoenix, its wings ablaze with primal fire, emerges from a pile of discarded tokens, signifying old endeavors."
-			},
-			{
-				"instructions": "Pick any card from the deck. Shuffle the deck. Discard a card.",
-				"title": "Gambit of the Outlaw",
-				"flavorText": "The rogue knows that the rules of fate are but a suggestion.",
-				"visualDescription": "A wily rogue with a mischievous smile deftly pulls a glowing glyph from a spiraling constellation of symbols, scattering the rest."
-			},
-			{
-				"instructions": "Draw three cards. Put one in your hand, one in the discard pile, and one on top of the deck.",
-				"title": "Mystic's Revelation",
-				"flavorText": "Beneath the surface of the cryptic lies the truth, waiting to be unveiled.",
-				"visualDescription": "An enigmatic oracle gazes into a shimmering orb, three prophetic visions hovering within, each signifying a different fate."
-			},
-			{
-				"instructions": "Shuffle the discard pile into the deck.",
-				"title": "King's Resurgence",
-				"flavorText": "History, once discarded, often resurfaces to shape the journey anew.",
-				"visualDescription": "A majestic king stands before a celestial gate, his command bringing forth a swirling storm of historical remnants blending into the current."
-			},
-			{
-				"instructions": "Roll for fate. On an even number, draw a card. On an odd number, discard a card.",
-				"title": "Caprice of Fortune",
-				"flavorText": "The tide of fortune ebbs and flows, guided by unseen forces.",
-				"visualDescription": "A majestic pendulum, imbued with arcane energy, oscillates in an ancient tower, casting ever-changing shadows indicative of fortune's fickleness."
-			},
-			{
-				"instructions": "Roll for fate. On an even number, gain a fate point. On an odd number, lose a fate point.",
-				"title": "Destiny's Fulcrum",
-				"flavorText": "Every spin of destiny's wheel teeters on the edge of the fulcrum.",
-				"visualDescription": "An ethereal scale levitates in a celestial void, a luminescent point shimmering on one side and a dim one on the other, symbolizing the precarious balance of fate."
-			},
-			{
-				"instructions": "Roll for fate. If you roll a 1 or a 2, gain a power point. If you roll a 3 or a 4, gain a fate point. If you roll a 5 or a 6, draw a card.",
-				"title": "Circlet of Prophecy",
-				"flavorText": "Through the circlet, the threads of destiny weave myriad outcomes.",
-				"visualDescription": "A mystical circlet, adorned with arcane symbols, hovers over a cosmic backdrop. Beneath it, ethereal dice roll, their faces glowing with potential outcomes."
-			},
-			{
-				"instructions": "Roll for fate. On an even number, gain that many power points. On an odd number, lose that many fate points.",
-				"title": "Equilibrium of the Cosmos",
-				"flavorText": "Within the cosmos, every action ripples through the fabric of existence.",
-				"visualDescription": "A celestial scale is suspended amidst the cosmos, one side holding radiant power points, the other, dwindling fate points, representing the cosmic balance at stake."
-			},
-			{
-				"instructions": "Roll for fate. Draw that many cards. Shuffle that many cards from your hand into the deck.",
-				"title": "Rhythms of Fortuity",
-				"flavorText": "The drumbeat of fate resounds, shaping the symphony of chance.",
-				"visualDescription": "An ancient drum, pounded by unseen forces, sends ripples through a serene pool, while cards float and swirl in the rhythmic cadence."
-			},
-			{
-				"instructions": "Roll for fate. Lose that many fate points. Lose that many power points. Draw that many cards.",
-				"title": "Fractured Continuum",
-				"flavorText": "As destiny unravels, fragments of chance and power scatter to the winds.",
-				"visualDescription": "A temporal vortex pulls at the threads of power and fate, cards slipping through the fractures and spiraling towards an unknown abyss."
-			},
-			{
-				"instructions": "Roll for fate. Gain that many fate points. Gain that many power points. Discard that many cards.",
-				"title": "Celestial Resurgence",
-				"flavorText": "In the heart of the cosmos, the equilibrium of energies is perpetually renewed.",
-				"visualDescription": "Constellations converge in a celestial dance, their radiant energies igniting a shower of stardust that reabsorbs dissipating cards, symbolizing the cyclical rejuvenation of fate and power."
-			},
-			{
-				"instructions": "Roll for fate. On an even number, draw that many cards. On an odd number, shuffle that many cards from the discard pile into the deck.",
-				"title": "Reverberations of Fate",
-				"flavorText": "Fate's echoes whisper of what was and hint at what may yet be.",
-				"visualDescription": "Ghostly apparitions of past actions manifest as cards, reborn from the abyss, and get reshuffled into the cosmic deck, embodying the cyclical dance of fate."
-			},
-			{
-				"instructions": "Roll for fate. If you roll higher than your current power total, gain a power point and reroll. If you roll lower than your current power total, lose three power points.",
-				"title": "Conundrum of Might",
-				"flavorText": "In the realm of power, fortune can be a formidable ally or a fierce adversary.",
-				"visualDescription": "A metaphysical scale teeters on the edge, its balance threatened by glowing power points and a diminishing power symbol, reflecting the risky dance of strength."
-			},
-			{
-				"instructions": "Roll for fate. If you roll the same number as your current power total, draw twice that number of cards. If you roll a different number than your current power total, lose twice that many power points.",
-				"title": "Cycles of Dominance",
-				"flavorText": "The relentless tides of power transform into ebbs and surges at fate's whim.",
-				"visualDescription": "A tempestuous sea mirrors the tumultuous shifts of power, with cards caught in the crest of the wave, symbolizing the high stakes of the roll."
-			},
-			{
-				"instructions": "Roll for fate. If you roll a 1, 2, or 3, lose a power point for each card in your hand. If you roll a 4, 5, or 6, gain a power point for each card in your hand.",
-				"title": "Destiny's Grasp",
-				"flavorText": "The future molds itself within your grip, guided by fate's dice.",
-				"visualDescription": "A celestial hand holds a group of star-etched cards, their glow matching the shimmering dice floating above, hinting at potential power fluctuations."
-			},
-			{
-				"instructions": "Roll for fate. If you roll a 1, 2, or 3, lose a fate point for each card in your hand. If you roll a 4, 5, or 6, gain a fate point for each card in your hand.",
-				"title": "Touch of the Fates",
-				"flavorText": "Your destiny is intimately entwined with the cards fate deals you.",
-				"visualDescription": "A hand, bathed in ethereal light, clutches a deck of cards. A gossamer thread of energy connects each card with the hand, reflecting the intimate dance of fate and chance."
-			},
-			{
-				"instructions": "Roll for fate. If you roll a 1, set your power to 12. If you roll anything other than a 1, set your power level to 1.",
-				"title": "Power's Reckoning",
-				"flavorText": "At the mercy of the die, the magnitude of your might is redefined.",
-				"visualDescription": "An ominous die, glimmering with cosmic power, hovers above a hand that seems both ready and apprehensive. The scene captures the transformative moment that will redefine power."
-			},
-			{
-				"instructions": "Gain a fate point.",
-				"title": "Resilience of Valor",
-				"flavorText": "The inner flame of courage never wavers, even in the deepest darkness.",
-				"visualDescription": "A blazing heart-shaped fire flickers defiantly, its radiant glow piercing through the surrounding shadows."
-			},
-			{
-				"instructions": "Roll for fate. If you roll higher than 1, gain a fate point. If you roll a 1, lose a power point.",
-				"title": "Fickle Hand of Chance",
-				"flavorText": "Fortune's hand capriciously steers the journey, for better or worse.",
-				"visualDescription": "A spectral hand emerges from a celestial cloud, casting rays of unpredictable light that illuminate both fortunes and perils."
-			},
-			{
-				"instructions": "Roll for fate. If you roll higher than 2, gain a fate point. If you roll lower than 3, lose 2 power points.",
-				"title": "Serenity amidst Trials",
-				"flavorText": "True tranquility endures, unscathed by the tumultuous trials of destiny.",
-				"visualDescription": "An image of a tranquil being in meditation, surrounded by blossoming flora, evokes a sense of calm amidst unseen trials."
-			},
-			{
-				"instructions": "Roll for fate. If you roll higher than 3, gain a fate point. If you roll lower than 4, lose 3 power points.",
-				"title": "The Warrior's Stand",
-				"flavorText": "Strength often blooms from the harshest adversities, standing tall amid the ruins.",
-				"visualDescription": "A lone warrior, stalwart and undeterred, stands strong amidst a landscape scarred by previous battles."
-			},
-			{
-				"instructions": "Roll for fate. If you roll higher than 4, gain a fate point. If you roll lower than 5, lose 4 power points.",
-				"title": "Currents of Destiny",
-				"flavorText": "Fate's currents are relentless; they lift you to heights untold or drag you to the depths unseen.",
-				"visualDescription": "A torrent of cosmic energy flows, capturing a voyager in its midst, elevating or immersing him based on unseen forces."
-			},
-			{
-				"instructions": "Roll for fate. If you roll higher than 5, gain a fate point. If you roll lower than 6, lose 5 power points.",
-				"title": "Endless Confrontation",
-				"flavorText": "Endurance shapes champions; every trial, a testament to the indomitable spirit.",
-				"visualDescription": "In a maelstrom of opposing forces, a figure finds equilibrium, embodying the human spirit's relentless resilience."
-			},
-			{
-				"instructions": "Roll for fate. If you roll higher than 6, gain a fate point. If you roll lower than 7, lose 6 power points.",
-				"title": "Crown of Resilience",
-				"flavorText": "Within the heart's unwavering resolve, the dwindling spark of power finds resurgence.",
-				"visualDescription": "A majestic crown, emblazoned with symbols of resilience, hovers above a heart-shaped flame, heralding the rekindling of power."
-			},
-			{
-				"instructions": "Roll for fate. If you roll higher than 7, gain a fate point. If you roll lower than 8, lose 7 power points.",
-				"title": "Life's Resonance",
-				"flavorText": "The heart's rhythmic pulse, a dance with fate, awakens dormant might.",
-				"visualDescription": "A heartbeat's vibrant pulse radiates energy, affecting surrounding symbols of potential, showcasing the rhythm's transformative influence."
-			},
-			{
-				"instructions": "Roll for fate. If you roll higher than 8, gain a fate point. If you roll lower than 9, lose 8 power points.",
-				"title": "Gate of Trials",
-				"flavorText": "A solemn threshold demands passage, testing the strength of one's spirit.",
-				"visualDescription": "A grand archway adorned with heart motifs stands before a traveller, his passage decided by unseen determinants."
-			},
-			{
-				"instructions": "Roll for fate. If you roll higher than 9, gain a fate point. If you roll lower than 10, lose 9 power points.",
-				"title": "Chains of Resolve",
-				"flavorText": "Bound by passion, the heart's fire casts light upon the boundaries of your might.",
-				"visualDescription": "A barrier of heart-shaped links surrounds a figure, with the intensity of internal flames ebbing and flowing, mirroring unseen impacts."
-			},
-			{
-				"instructions": "Roll for fate. If you roll higher than 10, gain a fate point. If you roll lower than 11, lose 10 power points.",
-				"title": "Brave Gambit",
-				"flavorText": "A daring wager with destiny; the heart's gamble can lead to great victories or painful losses.",
-				"visualDescription": "A heart-themed gaming table hosts spectral pieces, symbolizing the potential risks and rewards of this daring venture."
-			},
-			{
-				"instructions": "Roll for fate. If you roll higher than 11, gain a fate point. If you roll lower than 12, lose 11 power points.",
-				"title": "Regalia of Renewal",
-				"flavorText": "Through resilience, the heart breathes life into faltering embers of strength.",
-				"visualDescription": "A regal crown, gleaming with symbols of courage and vitality, cradles a heart-shaped flame, illustrating the revival of dwindling might."
-			},
-			{
-				"instructions": "Lose 12 power points.",
-				"title": "Valiant Offering",
-				"flavorText": "In the face of adversity, the strength of sacrifice becomes the fuel for the inner fire.",
-				"visualDescription": "A burning heart-shaped flame fiercely radiates light, even as surrounding symbols of power fade, underscoring the transformative nature of sacrifice."
-			},
-			{
-				"instructions": "Gain a power point",
-				"title": "Emanation of Might",
-				"flavorText": "The fountainhead of fortitude begins to surge.",
-				"visualDescription": "A mystic geyser radiates vitality, an outstretched hand reaches to touch the source, manifesting the embodiment of burgeoning power."
-			},
-			{
-				"instructions": "Gain a fate point",
-				"title": "Benevolence of Destiny",
-				"flavorText": "The hand of providence extends its benevolent touch.",
-				"visualDescription": "A celestial palm descends from the ether, bestowing a glowing destiny point, reciprocated by a mortal hand reaching upwards, signifying alignment with the course of destiny."
-			},
-			{
-				"instructions": "Sacrifice a fate point. Gain a power point.",
-				"title": "Arcane Transaction",
-				"flavorText": "The equilibrium of might is crafted through relinquishment.",
-				"visualDescription": "A swirling nexus manifests the exchange of destiny for strength, their energies merging in a brilliant fusion of ethereal hues."
-			},
-			{
-				"instructions": "Sacrifice a power point. Gain a fate point.",
-				"title": "Invigorating Revival",
-				"flavorText": "The potency of relinquishment fosters the ascent of destiny.",
-				"visualDescription": "A waning symbol of might fades, as a luminous destiny point emerges from its ashes, encapsulating the transformative essence of surrender on destiny's path."
-			},
-			{
-				"instructions": "Gain two power points.",
-				"title": "Amplified Ascendancy",
-				"flavorText": "The influx of vitality kindles the flame of dominance.",
-				"visualDescription": "Sparks of might ricochet between twin points, demonstrating the surge in strength and the electrifying tension of newfound power."
-			},
-			{
-				"instructions": "Gain two fate points.",
-				"title": "Destiny's Confluence",
-				"flavorText": "The intertwining strands of fortune fuel destiny's ascension.",
-				"visualDescription": "A myriad of converging paths unify at a central hub, where twin destiny points materialize, signifying the fusion of potentialities and their impact on one's course."
-			},
-			{
-				"instructions": "Sacrifice two fate points. Gain three power points.",
-				"title": "Equitable Relinquishment",
-				"flavorText": "The pendulum of relinquishment swings in favor of might.",
-				"visualDescription": "An antique scale, destiny points weighing down one pan and power points the other, tips towards might as destiny dwindles, demonstrating the essential sacrifices on the path to greatness."
-			},
-			{
-				"instructions": "Sacrifice two power points. Gain three fate points.",
-				"title": "Destiny's Resurgence",
-				"flavorText": "The resurgence of destiny replenishes the receding wellspring of might.",
-				"visualDescription": "A fading symbol of might rekindles as three vibrant destiny points burst forth, portraying the rejuvenation of fortune and the metamorphosis of surrender into revitalized power."
-			},
-			{
-				"instructions": "If you have an even number of fate points, gain a power point. If you have an odd number of fate points, lose a power point.",
-				"title": "Fickle Equilibrium",
-				"flavorText": "The capricious ballet of destiny teeters on the verge of might's abyss.",
-				"visualDescription": "A precarious balance beam wavers between destiny and power, with one's current fortune and strength represented on opposing ends, underscoring the delicate balance between the two."
-			},
-			{
-				"instructions": "Sacrifice all of your fate points. Gain that many power points.",
-				"title": "Destiny's Alchemy",
-				"flavorText": "The surrender of destiny births boundless might.",
-				"visualDescription": "A torrent of destiny points transmutes into a hailstorm of power points, embodying the mystical transformation of fortune into raw energy."
-			},
-			{
-				"instructions": "if you have an even number of fate points, set your power to 12. If you have an odd number of fate points, set your fate to 6.",
-				"title": "Twofold Paradox",
-				"flavorText": "The cryptic interplay of destiny and might reshapes your essence.",
-				"visualDescription": "A swirling vortex mirrors the interaction between destiny and might, while two radiant spheres, one embodying fortune and the other power, hover above, indicating the reformation of one's attributes."
-			},
-			{
-				"instructions": "If you have an odd number of fate points, set your power to 1. If you have an even number of fate points, set your fate to 1.",
-				"title": "Forces United",
-				"flavorText": "The convergence of destiny and might forges fresh commencement.",
-				"visualDescription": "Two intertwining rivulets, one embodying destiny and the other power, converge at a central point, where fortune transmutes into might and vice versa, symbolizing the reshaping of one's attributes."
-			},
-			{
-				"instructions": "Set your fate and power to 1.",
-				"title": "Dawning Potential",
-				"flavorText": "From the ashes of rebirth, uncharted potential takes flight.",
-				"visualDescription": "A resplendent phoenix ascends from its ashes, epitomizing the renewal of destiny and power as they reset to their origin."
-			}
-		]
+			"gameZones": [
+				"Deck: This is the draw pile. It contains cards you have yet to encounter.",
+				"Hand: This is your current hand of cards. It contains the cards you've drawn and can use.",
+				"Discard: This is the discard pile. Cards used or discarded from your hand end up here."
+			],
+			"turnSequence": [
+				"Draw a card from the deck.",
+				"Play a card from your hand and follow the instructions written on the card.",
+				"Discard the played card into the discard pile.",
+				"Check your health. If it's zero or less, you've lost the game. If not, it's the start of your next turn."
+			],
+			"cardInstructions": "The actions you'll take are dictated by the instructions on the cards you play. These may include drawing or discarding cards, rolling the fate die, adjusting your health or luck, and various effects influenced by your fate rolls.",
+			"fateRolls": "Some cards require a fate roll. For these, roll the D6 fate dice and follow the card's instructions for the outcome.",
+			"healthAndLuck": "You track your health using the D12 health dice and your luck using the D6 luck dice. Certain card instructions will cause these values to increase or decrease. If your health reaches zero or less, you've succumbed to the dungeon's perils and lost the game.",
+			"luckMechanic": "The Luck Mechanic allows you to spend luck points to improve your fate rolls. For example, if you have 3 luck points and you roll a 3 for your fate roll, you could spend all your luck points to turn that roll into a 6. Each luck point spent reduces your current luck total by 1.",
+			"winningTheGame": "To win, you must successfully navigate through all the rooms (draw and play all the cards) in the dungeon. If you've used all the cards in the deck and are still standing (health greater than 0), you've escaped the dungeon and won the game!"
+		}
 	}
 }
 
