@@ -57,8 +57,8 @@
 			},
 			{
 				"title": "Sinkhole of Skyward Longing",
-				"flavor_text": "Within the stone-ringed cavity, sunlight dares to descend, sparking whispers of freedom. Lift your eyes, weary traveler. Embrace the fleeting respite in the midst of your descent.",
-				"visual_description": "A vast, circular chasm penetrates the dungeon, providing a vertiginous glimpse of the clear sky above. Overgrown vines from the encroaching forest edge into the stony perimeter, casting dancing shadows on the ground as they sway with the breeze. Sunlight illuminates the space, casting a stark contrast against the surrounding darkness, invoking a promise of the surface world.",
+				"flavorText": "Within the stone-ringed cavity, sunlight dares to descend, sparking whispers of freedom. Lift your eyes, weary traveler. Embrace the fleeting respite in the midst of your descent.",
+				"visualDescription": "A vast, circular chasm penetrates the dungeon, providing a vertiginous glimpse of the clear sky above. Overgrown vines from the encroaching forest edge into the stony perimeter, casting dancing shadows on the ground as they sway with the breeze. Sunlight illuminates the space, casting a stark contrast against the surrounding darkness, invoking a promise of the surface world.",
 				"instructions": "Discard your hand."
 			},
 			{
@@ -69,8 +69,8 @@
 			},
 			{
 				"title": "The All-Father's Reprieve",
-				"flavor_text": "In the deepest despair of the dungeon's depths, the All-Father's light permeates the darkness. Will you seize this divine opportunity, or falter under the weight of your journey?",
-				"visual_description": "A faint, otherworldly light illuminates the intricate celestial etchings on the dungeon walls. A mysterious, benevolent energy pulses around you, its subtle warmth promising a momentary respite.",
+				"flavorText": "In the deepest despair of the dungeon's depths, the All-Father's light permeates the darkness. Will you seize this divine opportunity, or falter under the weight of your journey?",
+				"visualDescription": "A faint, otherworldly light illuminates the intricate celestial etchings on the dungeon walls. A mysterious, benevolent energy pulses around you, its subtle warmth promising a momentary respite.",
 				"instructions": "Pick any card from the deck. Shuffle the deck. Discard a card."
 			},
 			{
@@ -93,8 +93,8 @@
 			},
 			{
 				"title": "Eldrath's Ethereal Judgement",
-				"visual_description": "You find yourself in a shadowy chamber, its arched ceiling seemingly suspended in the abyss. The room pulses with an eerie, blue glow, and a chill runs down your spine. Across the walls, the faint, shadowy form of a Dragon appears and disappears, its roars echoing around the room as if coming from everywhere and nowhere at the same time.",
-				"flavor_text": "In this spectral chamber, the spirit of Eldrath the Dragon weighs your worth. Will you receive Eldrath's spectral blessing or face his ethereal wrath? The echo of his roars will be your answer.",
+				"visualDescription": "You find yourself in a shadowy chamber, its arched ceiling seemingly suspended in the abyss. The room pulses with an eerie, blue glow, and a chill runs down your spine. Across the walls, the faint, shadowy form of a Dragon appears and disappears, its roars echoing around the room as if coming from everywhere and nowhere at the same time.",
+				"flavorText": "In this spectral chamber, the spirit of Eldrath the Dragon weighs your worth. Will you receive Eldrath's spectral blessing or face his ethereal wrath? The echo of his roars will be your answer.",
 				"instructions": "Roll fate. On an even number, gain a luck point. On an odd number, lose a luck point."
 			},
 			{
@@ -123,14 +123,14 @@
 			},
 			{
 				"title": "The Beast's Favor",
-				"flavor_text": "In the foreboding depths of Eldrath's Sorrow, an unexpected alliance is born. A wary beast becomes an unlikely guardian, guiding you with feral wisdom through the dungeon's winding ways.",
-				"visual_description": "Amidst the lush overgrowth claiming the stone halls, a fierce creature emerges. Its eyes, glowing with an intelligent, primal force, reflect an unspoken understanding. Guided by this unusual ally, you traverse paths less trodden, marked by claw and bite marks, and through chambers glowing with the eerie luminescence of bioluminescent fungi. The echoing growls and rustling vegetation underscore the strange, wild harmony of this alliance.",
+				"flavorText": "In the foreboding depths of Eldrath's Sorrow, an unexpected alliance is born. A wary beast becomes an unlikely guardian, guiding you with feral wisdom through the dungeon's winding ways.",
+				"visualDescription": "Amidst the lush overgrowth claiming the stone halls, a fierce creature emerges. Its eyes, glowing with an intelligent, primal force, reflect an unspoken understanding. Guided by this unusual ally, you traverse paths less trodden, marked by claw and bite marks, and through chambers glowing with the eerie luminescence of bioluminescent fungi. The echoing growls and rustling vegetation underscore the strange, wild harmony of this alliance.",
 				"instructions": "Roll fate. Gain that many luck points. Gain that many health points. Discard that many cards."
 			},
 			{
 				"title": "The Serpent's Gauntlet",
-				"flavor_text": "In the dim light, a figure moves with purpose through the Serpent's Gauntlet, a labyrinthine section of the dungeon known for its pilfered chambers. The stranger's quick, precise movements suggest a familiarity with the shadows. Could this be a member of the notorious Serpent's Eye? Tread carefully, adventurer, for these halls echo with deception.",
-				"visual_description": "A twisting maze of narrow passageways, where the cold stone walls bear signs of reckless excavation and hastily etched serpent graffiti. The light from a single torch flickers across a cloaked figure, their face hidden in shadow, picking their way through the labyrinth with a deftness that hints at many previous expeditions.",
+				"flavorText": "In the dim light, a figure moves with purpose through the Serpent's Gauntlet, a labyrinthine section of the dungeon known for its pilfered chambers. The stranger's quick, precise movements suggest a familiarity with the shadows. Could this be a member of the notorious Serpent's Eye? Tread carefully, adventurer, for these halls echo with deception.",
+				"visualDescription": "A twisting maze of narrow passageways, where the cold stone walls bear signs of reckless excavation and hastily etched serpent graffiti. The light from a single torch flickers across a cloaked figure, their face hidden in shadow, picking their way through the labyrinth with a deftness that hints at many previous expeditions.",
 				"instructions": "Roll fate. On an even number, draw that many cards. On an odd number, shuffle that many cards from the discard pile into the deck."
 			},
 			{
@@ -148,14 +148,14 @@
 			{
 				"title": "The Egg-laden Nest",
 				"instructions": "Roll fate. If you roll a 1, 2, or 3, lose a health point for each card in your hand. If you roll a 4, 5, or 6, gain a health point for each card in your hand.",
-				"flavor_text": "A dimly lit cavern draped in shadows houses an oversized nest, a testament to the Feral Beasts that roam Eldrath's Sorrow. Scratches, imprints of claws and gnawed bone fragments warn of the current resident, a formidable creature drawn by the ancient energy of the All-Father. Whispers of the Echoing Abyss resound, chilling your spine as you carefully approach the egg-laden nest. Here, in the harsh embrace of the dungeon, you understand that the line between predator and prey is a question of choices.",
-				"visual_description": "The cavern is barely lit, with slivers of light piercing the gloom through cracks in the rock. The enormous nest dominates the room, a chaotic pile of branches, bones, and feathers. It cradles large, mottled eggs that glisten with an otherworldly hue. Claw marks scar the stone around it, and the remains of unfortunate adventurers lie scattered, their equipment glinting ominously. The echo of distant roars fills the cavern, their unseen source a constant threat."
+				"flavorText": "A dimly lit cavern draped in shadows houses an oversized nest, a testament to the Feral Beasts that roam Eldrath's Sorrow. Scratches, imprints of claws and gnawed bone fragments warn of the current resident, a formidable creature drawn by the ancient energy of the All-Father. Whispers of the Echoing Abyss resound, chilling your spine as you carefully approach the egg-laden nest. Here, in the harsh embrace of the dungeon, you understand that the line between predator and prey is a question of choices.",
+				"visualDescription": "The cavern is barely lit, with slivers of light piercing the gloom through cracks in the rock. The enormous nest dominates the room, a chaotic pile of branches, bones, and feathers. It cradles large, mottled eggs that glisten with an otherworldly hue. Claw marks scar the stone around it, and the remains of unfortunate adventurers lie scattered, their equipment glinting ominously. The echo of distant roars fills the cavern, their unseen source a constant threat."
 			},
 			{
 				"title": "The Seer's Refuge",
 				"instructions": "Roll fate. If you roll a 1, 2, or 3, lose a luck point for each card in your hand. If you roll a 4, 5, or 6, gain a luck point for each card in your hand.",
-				"flavor_text": "Within Eldrath's Sorrow, tucked away in a forgotten corner, exists the refuge of a blind seer. Despite his physical blindness, his second sight reads the web of fate and destiny. Be prepared - for the choices here could tip the scales of fortune.",
-				"visual_description": "A snug grotto illuminated by the faint glow of runic symbols on the walls, mirroring those found in The Scholar's Archive. In the center sits the blind seer, an old man dressed in ragged robes, his eyes covered with a cloth marked with a symbol of the All-Father. The room is rich with the aroma of herbs and parchment, mixing with the damp earthiness of the dungeon. Muffled whispers from the Echoing Abyss seem to converse with the seer's silent murmurs. As you step in, a sense of profound anticipation fills the air, hinting at the promise of revealed destinies."
+				"flavorText": "Within Eldrath's Sorrow, tucked away in a forgotten corner, exists the refuge of a blind seer. Despite his physical blindness, his second sight reads the web of fate and destiny. Be prepared - for the choices here could tip the scales of fortune.",
+				"visualDescription": "A snug grotto illuminated by the faint glow of runic symbols on the walls, mirroring those found in The Scholar's Archive. In the center sits the blind seer, an old man dressed in ragged robes, his eyes covered with a cloth marked with a symbol of the All-Father. The room is rich with the aroma of herbs and parchment, mixing with the damp earthiness of the dungeon. Muffled whispers from the Echoing Abyss seem to converse with the seer's silent murmurs. As you step in, a sense of profound anticipation fills the air, hinting at the promise of revealed destinies."
 			},
 			{
 				"title": "The Hall of Tempting Fate",
@@ -166,14 +166,14 @@
 			{
 				"title": "The Serpent's Gift",
 				"instructions": "Gain a luck point.",
-				"flavor_text": "As you wander through the pilfered chambers of the Serpent's Eye, your foot strikes a tiny object obscured by the dim dungeon light. Stooping to investigate, you uncover a gemstone, its iridescent sparkle hinting at the fortune it once brought its owner. Perhaps some luck still lingers in its facets?",
-				"visual_description": "The card displays a dimly lit room filled with recklessly overturned chests and scattered artifacts. A faint serpent-encircled eye is etched into the far wall, the graffiti nearly faded with time. Dominating the scene is a single gemstone, partially hidden amidst the chaos, casting a soft, alluring glow that contradicts the dungeon's chilling atmosphere."
+				"flavorText": "As you wander through the pilfered chambers of the Serpent's Eye, your foot strikes a tiny object obscured by the dim dungeon light. Stooping to investigate, you uncover a gemstone, its iridescent sparkle hinting at the fortune it once brought its owner. Perhaps some luck still lingers in its facets?",
+				"visualDescription": "The card displays a dimly lit room filled with recklessly overturned chests and scattered artifacts. A faint serpent-encircled eye is etched into the far wall, the graffiti nearly faded with time. Dominating the scene is a single gemstone, partially hidden amidst the chaos, casting a soft, alluring glow that contradicts the dungeon's chilling atmosphere."
 			},
 			{
 				"title": "The Flicker of Fate",
 				"instructions": "Roll fate. If you roll higher than 1, gain a luck point. If you roll a 1, lose a health point.",
-				"flavor_text": "In the gloom of Eldrath's Sorrow, a single flicker of light beckons from an unexplored chamber. Will it lead to luck or disaster?",
-				"visual_description": "A dimly lit chamber, carved from the ancient stone of the dungeon. Glints of light sparkle off the traces of celestial symbols etched into the walls, a testament to the All-Father's cosmic domain. In the center of the room, an eerie glow illuminates a solitary die, its outcome hidden in shadow. Faint echoes of past adventurers ripple through the air, the scent of old campfires linger, and the residue of an unending struggle against fate is palpable."
+				"flavorText": "In the gloom of Eldrath's Sorrow, a single flicker of light beckons from an unexplored chamber. Will it lead to luck or disaster?",
+				"visualDescription": "A dimly lit chamber, carved from the ancient stone of the dungeon. Glints of light sparkle off the traces of celestial symbols etched into the walls, a testament to the All-Father's cosmic domain. In the center of the room, an eerie glow illuminates a solitary die, its outcome hidden in shadow. Faint echoes of past adventurers ripple through the air, the scent of old campfires linger, and the residue of an unending struggle against fate is palpable."
 			},
 			{
 				"title": "Encounter at the Dragon's Breath Bridge",
@@ -196,8 +196,8 @@
 			{
 				"title": "The Crumbling Hall of Folly",
 				"instructions": "Roll fate. If you roll higher than 5, gain a luck point. If you roll lower than 6, lose 5 health points.",
-				"flavor_text": "A sudden rumble makes your heart lurch. The hall groans with the weight of centuries, pushed to its limit by recent transgressions. The spirit of the Giants seems to murmur in the air, 'Strength is more than muscle... it's the will to endure.'",
-				"visual_description": "A hallway marked by signs of reckless excavation, likely the careless work of the Serpent's Eye. The aftermath of a small cave-in is evident, with debris and dust scattering the ground. Stone constructs, remnants of the Giants' handiwork, jut out from the walls, their carved majesty marred by recent, violent fractures. Faint glimmers of mystic energy flicker around the rubble, indicating a disruption in the ancient energy infused into the dungeon's foundation. Amidst the chaos, a serpent-encircled eye graffiti boldly proclaims the culprits of this sacrilege."
+				"flavorText": "A sudden rumble makes your heart lurch. The hall groans with the weight of centuries, pushed to its limit by recent transgressions. The spirit of the Giants seems to murmur in the air, 'Strength is more than muscle... it's the will to endure.'",
+				"visualDescription": "A hallway marked by signs of reckless excavation, likely the careless work of the Serpent's Eye. The aftermath of a small cave-in is evident, with debris and dust scattering the ground. Stone constructs, remnants of the Giants' handiwork, jut out from the walls, their carved majesty marred by recent, violent fractures. Faint glimmers of mystic energy flicker around the rubble, indicating a disruption in the ancient energy infused into the dungeon's foundation. Amidst the chaos, a serpent-encircled eye graffiti boldly proclaims the culprits of this sacrilege."
 			},
 			{
 				"title": "Scholars' Snare",
@@ -231,8 +231,8 @@
 			},
 			{
 				"title": "The Chamber of Abandoned Hopes",
-				"flavor_text": "Beneath the stern gaze of the celestial bodies in this solemn chamber, many have been tested and found wanting. The allure of surrender can be strong in this quiet place where hope seems to wane.",
-				"visual_description": "A domed chamber, dimly lit by twinkling celestial symbols etched into its ceiling. Discarded equipment lies scattered about, testament to adventurers who have forsaken their journey. The walls bear inscriptions from the Hibernus Guild, recording theories of despair and sacrifice, but the notes grow sparse and forlorn as one moves deeper into the room. An ethereal whisper seems to permeate the air, a wordless hymn of relinquishment.",
+				"flavorText": "Beneath the stern gaze of the celestial bodies in this solemn chamber, many have been tested and found wanting. The allure of surrender can be strong in this quiet place where hope seems to wane.",
+				"visualDescription": "A domed chamber, dimly lit by twinkling celestial symbols etched into its ceiling. Discarded equipment lies scattered about, testament to adventurers who have forsaken their journey. The walls bear inscriptions from the Hibernus Guild, recording theories of despair and sacrifice, but the notes grow sparse and forlorn as one moves deeper into the room. An ethereal whisper seems to permeate the air, a wordless hymn of relinquishment.",
 				"instructions": "Roll fate. If you roll higher than 11, gain a luck point. If you roll lower than 12, lose 11 health points."
 			},
 			{
@@ -508,11 +508,17 @@
 		},
 		"rules": {
 			"gameSetUp": {
+				"startingHandSize": 2,
+				"startingHealth": 6,
+				"startingLuck": 1,
+				"healthDieSides": 12,
+				"luckDieSides": 6,
+				"fateDieSides": 6,
 				"steps": [
 					"Shuffle all the cards to form the deck.",
-					"Draw two cards from the deck to form your starting hand.",
-					"Set your health to 6 by using the D12 health dice.",
-					"Set your luck to 1 using the D6 luck dice."
+					"Draw ${startingHandSize} cards from the deck to form your starting hand.",
+					"Set your starting health to ${startingHealth} by using the ${healthDieSides}-sided health die.",
+					"Set your starting luck to ${startingLuck} using the ${luckDieSides}-sided luck die."
 				]
 			},
 			"gameZones": [
@@ -527,8 +533,8 @@
 				"Check your health. If it's zero or less, you've lost the game. If not, it's the start of your next turn."
 			],
 			"cardInstructions": "The actions you'll take are dictated by the instructions on the cards you play. These may include drawing or discarding cards, rolling the fate die, adjusting your health or luck, and various effects influenced by your fate rolls.",
-			"fateRolls": "Some cards require a fate roll. For these, roll the D6 fate dice and follow the card's instructions for the outcome.",
-			"healthAndLuck": "You track your health using the D12 health dice and your luck using the D6 luck dice. Certain card instructions will cause these values to increase or decrease. If your health reaches zero or less, you've succumbed to the dungeon's perils and lost the game.",
+			"fateRolls": "Some cards require a fate roll. For these, roll the ${fateDieSides}-sided fate die and follow the card's instructions for the outcome.",
+			"healthAndLuck": "You track your health using the ${healthDieSides}-sided health die and your luck using the ${luckDieSides}-sided luck die. Certain card instructions will cause these values to increase or decrease. If your health reaches zero or less, you've succumbed to the dungeon's perils and lost the game.",
 			"luckMechanic": "The Luck Mechanic allows you to spend luck points to improve your fate rolls. For example, if you have 3 luck points and you roll a 3 for your fate roll, you could spend all your luck points to turn that roll into a 6. Each luck point spent reduces your current luck total by 1.",
 			"winningTheGame": "To win, you must successfully navigate through all the rooms (draw and play all the cards) in the dungeon. If you've used all the cards in the deck and are still standing (health greater than 0), you've escaped the dungeon and won the game!"
 		}
